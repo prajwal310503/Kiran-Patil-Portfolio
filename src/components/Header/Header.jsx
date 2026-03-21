@@ -1,11 +1,15 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import ThemeToggle from "../ThemeToggle/ThemeToggle";
-import logo from "../../assets/bjp.png";
+import LanguageSwitcher from "../LanguageSwitcher/LanguageSwitcher";
+import logo from "../../assets/india-flag.svg";
 import { FiMenu, FiX } from "react-icons/fi";
+import { t } from "../../i18n/translations";
+import { useLang } from "../../contexts/LangContext";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
+  useLang(); // subscribe to language changes for re-render
 
   return (
     <header className="bg-primary text-white px-6 py-4 shadow-md">
@@ -17,18 +21,17 @@ const Header = () => {
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex gap-10 font-medium">
-          <Link to="/" className="transition duration-200  hover:scale-105">Home</Link>
-          <Link to="/about" className="transition duration-200 hover:scale-105">About</Link>
-          <Link to="/gallery" className="transition duration-200  hover:scale-105">Gallery</Link>
-          <Link to="/blogs" className="transition duration-200  hover:scale-105">Events</Link>
-
-
+          <Link to="/" className="transition duration-200 hover:scale-105">{t("nav_home")}</Link>
+          <Link to="/about" className="transition duration-200 hover:scale-105">{t("nav_about")}</Link>
+          <Link to="/gallery" className="transition duration-200 hover:scale-105">{t("nav_gallery")}</Link>
+          <Link to="/blogs" className="transition duration-200 hover:scale-105">{t("nav_events")}</Link>
         </nav>
 
         {/* Actions */}
         <div className="hidden md:flex items-center gap-4">
+          <LanguageSwitcher />
           <button className="bg-white text-gray-800 px-6 py-1 rounded-2xl font-semibold hover:bg-gray-100">
-            Join Us
+            {t("nav_join")}
           </button>
           <ThemeToggle />
         </div>
@@ -45,14 +48,15 @@ const Header = () => {
       {/* Mobile Nav */}
       {isOpen && (
         <div className="md:hidden mt-4 space-y-4 px-6 pb-4">
-          <Link to="/" onClick={() => setIsOpen(false)} className="block">Home</Link>
-          <Link to="/about" onClick={() => setIsOpen(false)} className="block">About</Link>
-          <Link to="/gallery" onClick={() => setIsOpen(false)} className="block">Gallery</Link>
-          <Link to="/blogs" onClick={() => setIsOpen(false)} className="block">Blogs</Link>
+          <Link to="/" onClick={() => setIsOpen(false)} className="block">{t("nav_home")}</Link>
+          <Link to="/about" onClick={() => setIsOpen(false)} className="block">{t("nav_about")}</Link>
+          <Link to="/gallery" onClick={() => setIsOpen(false)} className="block">{t("nav_gallery")}</Link>
+          <Link to="/blogs" onClick={() => setIsOpen(false)} className="block">{t("nav_events")}</Link>
 
           <div className="pt-4 flex flex-col gap-3">
+            <LanguageSwitcher />
             <button className="bg-white text-gray-800 px-4 py-1 rounded-2xl font-semibold">
-              Join Us
+              {t("nav_join")}
             </button>
             <ThemeToggle />
           </div>

@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { getEvent } from "../../services/api";
+import { t } from "../../i18n/translations";
+import { useLang } from "../../contexts/LangContext";
 
 const formatDate = (dateStr) => {
   if (!dateStr) return "";
@@ -15,6 +17,8 @@ const EventDetails = ({ event, onClose }) => {
   const [loading, setLoading] = useState(true);
   const [page, setPage] = useState(1);
   const [imagesPerPage, setImagesPerPage] = useState(8);
+  const [lightboxSrc, setLightboxSrc] = useState(null);
+  useLang();
 
   useEffect(() => {
     getEvent(event.uid)
@@ -24,10 +28,17 @@ const EventDetails = ({ event, onClose }) => {
   }, [event.uid]);
 
   useEffect(() => {
-    const update = () => setImagesPerPage(window.innerWidth < 640 ? 4 : 8);
+    const update = () => setImagesPerPage(window.innerWidth < 640 ? 6 : 16);
     update();
     window.addEventListener("resize", update);
     return () => window.removeEventListener("resize", update);
+  }, []);
+
+  // Close lightbox on Escape key
+  useEffect(() => {
+    const handleKey = (e) => { if (e.key === "Escape") setLightboxSrc(null); };
+    window.addEventListener("keydown", handleKey);
+    return () => window.removeEventListener("keydown", handleKey);
   }, []);
 
   const images = (fullEvent?.images || []).sort(
@@ -44,93 +55,127 @@ const EventDetails = ({ event, onClose }) => {
   };
 
   return (
-    <div className="relative min-h-screen bg-white dark:bg-black text-black dark:text-white flex flex-col">
+    <div className="relative bg-white dark:bg-black text-black dark:text-white">
       {/* Header */}
-      <header className="bg-[#ff4d00] p-6 text-white flex flex-col items-center">
+      <header className="bg-[#ff4d00] px-8 sm:px-16 md:px-24 py-6 text-white flex flex-col items-center">
         <button
           onClick={onClose}
           className="self-start mb-4 px-4 py-2 bg-white text-[#c44113] rounded-lg font-medium hover:bg-gray-200"
         >
-          ← Back
+          {t("event_back")}
         </button>
         <h1 className="text-xl sm:text-3xl font-semibold text-center mb-4">
           {event.title}
         </h1>
         <div className="flex bg-white text-[#ff4d00] rounded-full overflow-hidden text-xs sm:text-sm font-semibold mb-6 select-none">
           <div className="px-4 py-1 whitespace-nowrap">
-            Date: {formatDate(event.eventStart)}
+            {formatDate(event.eventStart)}
           </div>
           <div className="border-l border-[#ff4d00]" />
           <div className="px-4 py-1 whitespace-nowrap">
-            Location: {event.location}
+            {event.location}
           </div>
         </div>
-        <p className="max-w-xl text-center text-sm sm:text-base font-light leading-relaxed">
-          {event.summary}
-        </p>
+        {(fullEvent?.description || event.description) && (
+          <div
+            dangerouslySetInnerHTML={{ __html: fullEvent?.description || event.description }}
+            className="max-w-4xl text-center text-sm sm:text-base font-light leading-relaxed mt-4 mb-2 [&_p]:mb-5 [&_p]:leading-relaxed [&_h2]:text-lg [&_h2]:font-bold [&_h2]:mb-3 [&_h2]:mt-4 [&_ol]:list-decimal [&_ol]:pl-5 [&_ol]:text-left [&_ol]:mb-4 [&_ul]:list-disc [&_ul]:pl-5 [&_ul]:text-left [&_ul]:mb-4"
+          />
+        )}
       </header>
 
       {/* Images & Pagination */}
-      <section className="p-10 flex-grow overflow-auto">
+      <section className="px-6 sm:px-10 py-14">
         {loading ? (
-          <p className="text-center text-lg text-gray-500 dark:text-gray-400">
-            Loading images...
-          </p>
+          <div className="flex flex-wrap justify-center gap-4">
+            {Array.from({ length: 8 }).map((_, i) => (
+              <div key={i} className="shimmer rounded-xl aspect-[4/3] w-[calc(50%-8px)] sm:w-[calc(33.333%-11px)] md:w-[calc(25%-12px)]" />
+            ))}
+          </div>
         ) : images.length === 0 ? (
           <p className="text-center text-gray-500 dark:text-gray-400">
-            No images available for this event.
+            {t("event_no_images")}
           </p>
         ) : (
           <>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
+            <div className="flex flex-wrap justify-center gap-4">
               {currentImages.map((img) => (
-                <img
+                <div
                   key={img.id}
-                  src={img.imageUrl}
-                  alt={img.altText || event.title}
-                  className="w-full h-40 sm:h-48 md:h-52 object-cover rounded-md"
-                />
+                  className="relative group overflow-hidden rounded-xl cursor-pointer aspect-[4/3] w-[calc(50%-8px)] sm:w-[calc(33.333%-11px)] md:w-[calc(25%-12px)]"
+                  onClick={() => setLightboxSrc(img.imageUrl)}
+                >
+                  <img
+                    src={img.imageUrl}
+                    alt={img.altText || event.title}
+                    loading="lazy"
+                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                    <span className="text-white text-sm font-semibold border border-white px-4 py-2 rounded-full">
+                      View
+                    </span>
+                  </div>
+                </div>
               ))}
             </div>
 
             {totalPages > 1 && (
-              <div className="flex justify-center mt-10 space-x-3 items-center flex-wrap">
+              <div className="flex justify-center mt-8 gap-1 items-center flex-wrap">
                 <button
                   onClick={() => handlePageChange(page - 1)}
                   disabled={page === 1}
-                  className={`px-4 py-2 rounded-full border transition duration-300 ${
+                  className={`flex items-center gap-1 px-3 py-2 rounded border text-sm transition duration-300 ${
                     page === 1
-                      ? "text-gray-400 border-gray-300 cursor-not-allowed"
-                      : "bg-transparent text-black dark:text-white border-gray-300 dark:border-gray-600 hover:bg-[#C34700] hover:text-white"
+                      ? "text-gray-400 border-gray-200 cursor-not-allowed"
+                      : "text-black dark:text-white border-gray-300 hover:bg-[#C34700] hover:text-white hover:border-[#C34700]"
                   }`}
                 >
-                  Previous
+                  ← {t("events_previous")}
                 </button>
 
-                {Array.from({ length: totalPages }, (_, i) => i + 1).map((p) => (
-                  <button
-                    key={p}
-                    onClick={() => handlePageChange(p)}
-                    className={`px-4 py-2 rounded-full border transition duration-300 ${
-                      p === page
-                        ? "bg-[#C34700] text-white border-[#C34700]"
-                        : "bg-transparent text-black dark:text-white border-gray-300 dark:border-gray-600 hover:bg-[#C34700] hover:text-white"
-                    }`}
-                  >
-                    {p}
-                  </button>
-                ))}
+                {(() => {
+                  const pages = [];
+                  const delta = 1;
+                  const left = page - delta;
+                  const right = page + delta;
+                  let last = 0;
+                  for (let p = 1; p <= totalPages; p++) {
+                    if (p === 1 || p === totalPages || (p >= left && p <= right)) {
+                      if (last && p - last > 1) pages.push("...");
+                      pages.push(p);
+                      last = p;
+                    }
+                  }
+                  return pages.map((p, i) =>
+                    p === "..." ? (
+                      <span key={`ellipsis-${i}`} className="px-2 py-2 text-sm text-gray-500">…</span>
+                    ) : (
+                      <button
+                        key={p}
+                        onClick={() => handlePageChange(p)}
+                        className={`w-9 h-9 rounded border text-sm transition duration-300 ${
+                          p === page
+                            ? "bg-[#C34700] text-white border-[#C34700]"
+                            : "text-black dark:text-white border-gray-300 hover:bg-[#C34700] hover:text-white hover:border-[#C34700]"
+                        }`}
+                      >
+                        {p}
+                      </button>
+                    )
+                  );
+                })()}
 
                 <button
                   onClick={() => handlePageChange(page + 1)}
                   disabled={page === totalPages}
-                  className={`px-4 py-2 rounded-full border transition duration-300 ${
+                  className={`flex items-center gap-1 px-3 py-2 rounded border text-sm transition duration-300 ${
                     page === totalPages
-                      ? "text-gray-400 border-gray-300 cursor-not-allowed"
-                      : "bg-transparent text-black dark:text-white border-gray-300 dark:border-gray-600 hover:bg-[#C34700] hover:text-white"
+                      ? "text-gray-400 border-gray-200 cursor-not-allowed"
+                      : "text-black dark:text-white border-gray-300 hover:bg-[#C34700] hover:text-white hover:border-[#C34700]"
                   }`}
                 >
-                  Next
+                  {t("events_next")} →
                 </button>
               </div>
             )}
@@ -138,7 +183,7 @@ const EventDetails = ({ event, onClose }) => {
         )}
       </section>
 
-      {/* Scroll to top button */}
+      {/* Scroll to top */}
       <button
         onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
         className="fixed bottom-8 right-8 w-12 h-12 bg-[#C34700] text-white rounded-full flex items-center justify-center shadow-lg hover:bg-[#a73900] transition"
@@ -146,6 +191,27 @@ const EventDetails = ({ event, onClose }) => {
       >
         ↑
       </button>
+
+      {/* Lightbox */}
+      {lightboxSrc && (
+        <div
+          className="fixed inset-0 z-50 bg-black/90 flex items-center justify-center p-4"
+          onClick={() => setLightboxSrc(null)}
+        >
+          <button
+            className="absolute top-4 right-4 text-white text-4xl font-light hover:text-gray-300 leading-none"
+            onClick={() => setLightboxSrc(null)}
+          >
+            ×
+          </button>
+          <img
+            src={lightboxSrc}
+            alt="Full view"
+            className="max-w-full max-h-[90vh] object-contain rounded-lg shadow-2xl"
+            onClick={(e) => e.stopPropagation()}
+          />
+        </div>
+      )}
     </div>
   );
 };

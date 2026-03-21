@@ -1,18 +1,17 @@
 import React from "react";
 import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa6";
 import { Link, useLocation } from "react-router-dom";
-import lotusLogo from "../../assets/bjp.png";
+import lotusLogo from "../../assets/india-flag.svg";
+import { t } from "../../i18n/translations";
+import { useLang } from "../../contexts/LangContext";
 
 const Footer = () => {
   const location = useLocation();
+  useLang(); // subscribe to language changes
 
   const handleHomeClick = () => {
-    // If already on Home page, scroll smoothly to top
     if (location.pathname === "/") {
-      window.scrollTo({
-        top: 0,
-        behavior: "smooth",
-      });
+      window.scrollTo({ top: 0, behavior: "smooth" });
     }
   };
 
@@ -22,14 +21,9 @@ const Footer = () => {
 
         {/* Left Section - Logo & Social Icons */}
         <div className="flex flex-col items-start gap-4">
-          <Link
-            to="/"
-            onClick={handleHomeClick}
-            className="cursor-pointer"
-          >
+          <Link to="/" onClick={handleHomeClick} className="cursor-pointer">
             <img src={lotusLogo} alt="Logo" className="w-16 h-16" />
           </Link>
-
 
           <div className="flex items-center gap-4 text-2xl">
             <a
@@ -40,7 +34,6 @@ const Footer = () => {
             >
               <FaInstagram size={20} />
             </a>
-
             <a
               href="https://www.facebook.com/share/1SVbev1sU9"
               target="_blank"
@@ -49,7 +42,6 @@ const Footer = () => {
             >
               <FaFacebookF size={20} />
             </a>
-
             <a
               href="https://x.com/patilkiran191"
               target="_blank"
@@ -63,35 +55,27 @@ const Footer = () => {
 
         {/* Quick Links */}
         <div>
-          <h4 className="text-2xl font-semibold mb-2">Quick Links</h4>
+          <h4 className="text-2xl font-semibold mb-2">{t("footer_quick_links")}</h4>
           <ul className="text-lg space-y-1">
-            <li>
-              <Link
-                to="/"
-                onClick={handleHomeClick}
-                className="hover:underline"
-              >
-                Home
-              </Link>
-            </li>
-            <li><Link to="/about" className="hover:underline">About</Link></li>
-            <li><Link to="/gallery" className="hover:underline">Gallery</Link></li>
-            <li><Link to="/blogs" className="hover:underline">Events</Link></li>
+            <li><Link to="/" onClick={handleHomeClick} className="hover:underline">{t("nav_home")}</Link></li>
+            <li><Link to="/about" className="hover:underline">{t("nav_about")}</Link></li>
+            <li><Link to="/gallery" className="hover:underline">{t("nav_gallery")}</Link></li>
+            <li><Link to="/blogs" className="hover:underline">{t("nav_events")}</Link></li>
           </ul>
         </div>
 
         {/* Explore Bio */}
         <div>
-          <h4 className="text-2xl font-semibold mb-2">Explore Bio</h4>
+          <h4 className="text-2xl font-semibold mb-2">{t("footer_explore_bio")}</h4>
           <ul className="text-lg space-y-1">
             <li>
               <Link to="/about-kiran" className="hover:underline">
-                Meet Shri Kiran Prakash Patil
+                {t("footer_meet_kiran")}
               </Link>
             </li>
             <li>
               <Link to="/about-netra" className="hover:underline">
-                Smt. Netra Kiran Patil
+                {t("footer_meet_netra")}
               </Link>
             </li>
           </ul>
@@ -99,7 +83,7 @@ const Footer = () => {
 
         {/* Address */}
         <div>
-          <h4 className="text-2xl font-semibold mb-2">Address</h4>
+          <h4 className="text-2xl font-semibold mb-2">{t("footer_address")}</h4>
           <a
             href="https://www.google.com/maps/place/ISHA+CHS+Sector+19+Kharghar"
             target="_blank"
@@ -116,7 +100,7 @@ const Footer = () => {
 
       {/* Bottom */}
       <div className="text-center text-md mt-10 border-t border-white/30 pt-4">
-        © 2025 kiranpatil. All rights reserved. | Developed by Codifyne
+        {t("footer_copyright")}
       </div>
     </footer>
   );

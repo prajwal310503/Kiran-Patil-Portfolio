@@ -12,5 +12,6 @@ export const getEvents = () => get("/public/events");
 export const getEvent = (uid) => get(`/public/event/${uid}`);
 export const getGalleries = () => get("/public/galleries");
 export const getGallery = (uid) => get(`/public/gallery/${uid}`);
+export const getGalleriesByCategory = (categoryUid) => get(`/public/${categoryUid}/galleries`);
 export const getCategories = () => get("/public/categories");
 export const getCategory = (uid) => get(`/public/category/${uid}`);

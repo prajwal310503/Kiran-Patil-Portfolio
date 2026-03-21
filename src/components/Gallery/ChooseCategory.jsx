@@ -33,7 +33,7 @@ const ChooseCategory = ({ onSelectCategory }) => {
         {categories.map((cat) => (
           <div key={cat.uid} className="flex flex-col items-center">
             <div
-              onClick={() => onSelectCategory(cat)}
+              onClick={() => { onSelectCategory(cat); window.scrollTo({ top: 0, behavior: "smooth" }); }}
               className="w-40 h-40 rounded-xl shadow-md cursor-pointer hover:scale-105 transition-transform overflow-hidden bg-[#faf7ec]"
             >
               {cat.imageUrl && !cat.imageUrl.startsWith("blob:") ? (

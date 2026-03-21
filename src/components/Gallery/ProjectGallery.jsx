@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { getGalleries } from "../../services/api";
+import { getGalleriesByCategory } from "../../services/api";
 
 const ProjectGallery = ({ category, onSelectProject }) => {
   const [galleries, setGalleries] = useState([]);
@@ -7,23 +7,25 @@ const ProjectGallery = ({ category, onSelectProject }) => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    getGalleries()
-      .then((data) => {
-        // Filter by category.id if available (integer foreign key on gallery)
-        if (category?.id) {
-          setGalleries(data.filter((g) => g.categoryId === category.id));
-        } else {
-          setGalleries(data);
-        }
-      })
+    if (!category?.uid) return;
+    getGalleriesByCategory(category.uid)
+      .then(setGalleries)
       .catch(() => setError("Failed to load galleries. Please try again later."))
       .finally(() => setLoading(false));
-  }, [category]);
+  }, [category?.uid]);
 
   if (loading) {
     return (
-      <div className="py-20 text-center text-lg text-gray-500 dark:text-gray-400">
-        Loading galleries...
+      <div className="bg-white dark:bg-black py-20 px-6">
+        <div className="shimmer h-10 w-32 rounded-lg mx-auto mb-10" />
+        <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
+          {Array.from({ length: 6 }).map((_, i) => (
+            <div key={i} className="flex flex-col items-center gap-3">
+              <div className="shimmer w-56 h-56 rounded-xl" />
+              <div className="shimmer h-4 w-32 rounded" />
+            </div>
+          ))}
+        </div>
       </div>
     );
   }
@@ -43,7 +45,7 @@ const ProjectGallery = ({ category, onSelectProject }) => {
               <div
                 key={gallery.uid}
                 className="flex flex-col items-center text-center cursor-pointer"
-                onClick={() => onSelectProject(gallery)}
+                onClick={() => { onSelectProject(gallery); window.scrollTo({ top: 0, behavior: "smooth" }); }}
               >
                 <div className="relative w-56 h-56 flex items-center justify-center">
                   <div className="absolute inset-0 bg-[#F5F0E1] rounded-xl" />
