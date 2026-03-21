@@ -1,14 +1,22 @@
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
-import heroBg from "../../assets/kiran.png";
-import heroBg2 from "../../assets/kiran2.png";
-import heroBg3 from "../../assets/kiran.png";
+import heroBg from "../../assets/kiran1.jpeg";
+import heroBg2 from "../../assets/kiran2.jpeg";
+import heroBg3 from "../../assets/kiran3.jpeg";
+import heroBg4 from "../../assets/kiran4.jpeg";
+import heroBg5 from "../../assets/kiran5.jpeg";
 import { t } from "../../i18n/translations";
 import { useLang } from "../../contexts/LangContext";
 
 const Hero = ({ interval = 3000 }) => {
-  const slides = [heroBg, heroBg2, heroBg3];
+  const slides = [
+    { src: heroBg,  fit: "object-cover object-center" },
+    { src: heroBg2, fit: "object-cover object-center" },
+    { src: heroBg3, fit: "object-cover object-center" },
+    { src: heroBg4, fit: "object-cover object-center" },
+    { src: heroBg5, fit: "object-cover object-center" },
+  ];
   const [index, setIndex] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
   const touchStartX = useRef(null);
@@ -86,7 +94,10 @@ const Hero = ({ interval = 3000 }) => {
     setIsPaused(false);
   };
 
-  const trackStyle = { transform: `translateX(-${index * 100}%)` };
+  const trackStyle = {
+    transform: `translate3d(-${(index * 100) / slides.length}%, 0, 0)`,
+    willChange: "transform",
+  };
 
   // Split tagline on newline for multiline rendering
   const taglineLines = t("hero_tagline").split("\n");
@@ -94,7 +105,7 @@ const Hero = ({ interval = 3000 }) => {
   return (
     <>
       <section
-        className="relative w-full h-[65vh] md:h-[110vh] overflow-hidden flex items-center justify-center"
+        className="relative w-full h-[75vh] md:h-[110vh] overflow-hidden flex items-center justify-center"
         onMouseEnter={() => {
           setIsPaused(true);
           clearPending();
@@ -108,18 +119,18 @@ const Hero = ({ interval = 3000 }) => {
       >
         {/* Track wrapper */}
         <div
-          className="absolute left-0 top-0 h-full flex transition-transform duration-700 ease-in-out w-full"
-          style={trackStyle}
+          className="absolute left-0 top-0 h-full flex transition-transform duration-700 ease-in-out"
+          style={{ ...trackStyle, width: `${slides.length * 100}%` }}
         >
-          {slides.map((src, i) => (
-            <div key={i} className="w-full flex-shrink-0 h-full relative">
+          {slides.map((slide, i) => (
+            <div key={i} className="flex-shrink-0 h-full relative" style={{ width: `${100 / slides.length}%` }}>
               <img
-                src={src}
+                src={slide.src}
                 alt={`slide-${i + 1}`}
-                className="w-full h-full object-cover"
+                className={`w-full h-full ${slide.fit}`}
                 draggable={false}
               />
-              <div className="absolute inset-0 bg-black bg-opacity-30 pointer-events-none" />
+              <div className="absolute inset-0 bg-black/10 pointer-events-none" />
             </div>
           ))}
         </div>
@@ -139,67 +150,35 @@ const Hero = ({ interval = 3000 }) => {
           ))}
         </div>
 
-        {/* Desktop content */}
-        <div className="relative z-30 text-white hidden md:flex flex-row items-center justify-between w-full max-w-7xl px-6 mt-auto md:mt-0 pointer-events-none">
-          <div className="w-1/2 space-y-6 text-left pointer-events-auto">
-            <h1 className="text-5xl font-bold leading-tight">
-              {taglineLines.map((line, i) => (
-                <span key={i}>{line}{i < taglineLines.length - 1 && <br />}</span>
-              ))}
-            </h1>
-            <button
-              onClick={() => navigate("/about-kiran")}
-              className="mt-4 px-6 py-3 bg-white text-black font-semibold rounded-full shadow hover:bg-[#FF4D00] hover:text-white transition pointer-events-auto"
-            >
-              {t("hero_cta")}
-            </button>
-          </div>
-
-          {/* Social Icons */}
-          <div className="flex flex-col gap-7 pointer-events-auto">
-            <a
-              href="https://www.instagram.com/kiiran_prakash_patil?igsh=MTF6eTdrbjc4Z3U1bA=="
-              className="bg-[#FF4D00] text-white w-12 h-12 flex items-center justify-center rounded-full shadow-lg hover:scale-110 transition"
-              aria-label="Instagram"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <FaInstagram size={20} />
-            </a>
-            <a
-              href="https://www.facebook.com/share/1SVbev1sU9/"
-              className="bg-[#FF4D00] text-white w-12 h-12 flex items-center justify-center rounded-full shadow-lg hover:scale-110 transition"
-              aria-label="Facebook"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <FaFacebookF size={20} />
-            </a>
-            <a
-              href="https://x.com/patilkiran191"
-              className="bg-[#FF4D00] text-white w-12 h-12 flex items-center justify-center rounded-full shadow-lg hover:scale-110 transition"
-              aria-label="Twitter"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <FaTwitter size={20} />
-            </a>
-          </div>
-        </div>
-
-        {/* Mobile overlay */}
-        <div className="md:hidden mt-60 px-6 text-center relative z-30">
-          <h1 className="text-3xl font-bold leading-tight text-white">
-            {taglineLines.map((line, i) => (
-              <span key={i}>{line}{i < taglineLines.length - 1 && <br />}</span>
-            ))}
-          </h1>
-          <button
-            onClick={() => navigate("/about-kiran")}
-            className="mt-4 px-6 py-3 bg-white text-black font-semibold rounded-full shadow hover:bg-gray-200 transition"
+        {/* Social Icons - Desktop */}
+        <div className="absolute right-6 top-1/2 -translate-y-1/2 z-30 hidden md:flex flex-col gap-7">
+          <a
+            href="https://www.instagram.com/kiiran_prakash_patil?igsh=MTF6eTdrbjc4Z3U1bA=="
+            className="bg-[#FF4D00] text-white w-12 h-12 flex items-center justify-center rounded-full shadow-lg hover:scale-110 transition"
+            aria-label="Instagram"
+            target="_blank"
+            rel="noreferrer"
           >
-            {t("hero_cta")}
-          </button>
+            <FaInstagram size={20} />
+          </a>
+          <a
+            href="https://www.facebook.com/share/1SVbev1sU9/"
+            className="bg-[#FF4D00] text-white w-12 h-12 flex items-center justify-center rounded-full shadow-lg hover:scale-110 transition"
+            aria-label="Facebook"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaFacebookF size={20} />
+          </a>
+          <a
+            href="https://x.com/patilkiran191"
+            className="bg-[#FF4D00] text-white w-12 h-12 flex items-center justify-center rounded-full shadow-lg hover:scale-110 transition"
+            aria-label="Twitter"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaTwitter size={20} />
+          </a>
         </div>
       </section>
 

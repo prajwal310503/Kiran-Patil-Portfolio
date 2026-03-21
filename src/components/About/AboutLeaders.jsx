@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import netraImage from "../../assets/netra.png";
-import kiranImage from "../../assets/kiran.png";
+import netraImage from "../../assets/netra.jpeg";
+import kiranImage from "../../assets/kiran.jpeg";
 
 const leaders = [
   {
