@@ -45,38 +45,40 @@ const translations = {
     footer_copyright: "© 2025 kiranpatil. All rights reserved. | Developed by Codifyne",
 
     // About Kiran
-    kiran_title: "Meet Shri Kiran Prakash Patil",
-    kiran_p1:
-      "Shri Kiran Prakash Patil comes from a humble farmer's family. He was born in Jalgaon district, Maharashtra, completed his primary schooling in his village, and later pursued his secondary education in Nashik.",
-    kiran_p2:
-      "He began his journey with a Bachelor's degree in Social Sciences, where he developed an understanding of how societies function and how meaningful change takes root. His pursuit of knowledge then led him to earn a Diploma in Medical Laboratory Technology, giving him insights into healthcare and the importance of community well-being.",
-    kiran_p3:
-      "Never one to stop learning, he went on to complete his Post Graduate Diploma in Public Relation Management, honing the skills needed to connect with people, communicate effectively, and lead with empathy.",
-    kiran_p4:
-      "Every step of his educational journey has shaped him into a leader who blends understanding, compassion, and vision — someone who believes that education is not just a qualification, but a tool to serve others better.",
-    kiran_p5:
-      "He arrived in Mumbai in 2002, and two years later, in 2004, took his first steps into politics, setting the foundation for a life committed to public service. People facing medical challenges often turn to him for guidance, finding steady support through treatments and procedures.",
-    kiran_p6:
-      "Strong working relationships with the Police, CIDCO, Municipal Corporation, and the Tahsildar Office ensure quicker solutions to public concerns. The print and electronic media also recognize his work and often support his initiatives.",
-    kiran_p7:
-      "Our sanitation workers and garbage collectors, the true Swachhata Doots who keep the town clean, receive consistent support. TT injections and basic protective care are provided to ensure their safety.",
-    kiran_p8:
-      "At his core, he is a selfless person who treats the rich and the poor with the same dignity, stands up for justice, and gives a voice to those who feel unheard. He believes in humanity first, beyond caste or religion, and works to bring people together.",
-    kiran_p9:
-      "He constantly motivates the youth to donate blood and organs, to vote actively, and to stay aware and involved in local social issues.",
+    kiran_title: "My Journey, My Commitment",
+    kiran_s1_h: "Roots in the Soil",
+    kiran_s1_p1: "I was born into a humble farming family in the Jalgaon district of Maharashtra. Growing up, I witnessed firsthand the resilience and the challenges of those who work the land. These early years instilled in me a profound respect for hard work and the importance of community—values that continue to guide my every action today.",
+    kiran_s1_p2: "While my roots are in Jalgaon, my journey took me to Nashik for my secondary education, expanding my horizons and preparing me for a life of service.",
+    kiran_s2_h: "Education as a Tool for Service",
+    kiran_s2_intro: "I have always believed that education is not merely a collection of degrees, but a set of tools to serve others more effectively. My academic background reflects my multidisciplinary approach to leadership:",
+    kiran_s2_b1_l: "Social Sciences:", kiran_s2_b1_t: "I began with a Bachelor's degree to understand the intricacies of how societies function and how to plant the seeds of meaningful change.",
+    kiran_s2_b2_l: "Healthcare Insight:", kiran_s2_b2_t: "Earning a Diploma in Medical Laboratory Technology (DMLT) allowed me to see the vital importance of healthcare and community well-being from a technical perspective.",
+    kiran_s2_b3_l: "Communication & Leadership:", kiran_s2_b3_t: "To better connect with the people, I completed a Post Graduate Diploma in Public Relation Management, honing the empathy and communication skills required to lead with transparency.",
+    kiran_s3_h: "Two Decades of Public Service",
+    kiran_s3_p1: "I arrived in Mumbai in 2002, and by 2004, I took my first formal steps into the political arena. My mission has remained unchanged: to be a bridge between the people and the solutions they need.",
+    kiran_s4_h: "Standing with the People",
+    kiran_s4_b1_l: "Medical Guidance:", kiran_s4_b1_t: "Health crises can be overwhelming. I make it my priority to guide citizens through complex medical treatments and procedures, ensuring they never feel alone in their time of need.",
+    kiran_s4_b2_l: "Administrative Synergy:", kiran_s4_b2_t: "I maintain strong, professional working relationships with the Police, CIDCO, Municipal Corporations, and the Tahsildar Office. These connections are not for personal gain, but to ensure that your concerns are addressed with speed and justice.",
+    kiran_s4_b3_l: "Empowering our 'Swachhata Doots':", kiran_s4_b3_t: "Our sanitation workers and garbage collectors are the backbone of a clean city. I am committed to their safety, providing consistent support through protective care and essential TT injections.",
+    kiran_s5_h: "My Core Philosophy: Humanity First",
+    kiran_s5_p1: "At my core, I am a selfless servant of the people. I do not see caste, religion, or social status. Whether rich or poor, every individual who walks through my door is treated with the same dignity and respect.",
+    kiran_s5_b1_l: "A Voice for the Unheard:", kiran_s5_b1_t: "I stand firmly for justice, especially for those who feel their voices have been silenced.",
+    kiran_s5_b2_l: "Building a Future:", kiran_s5_b2_t: "I am a tireless advocate for our youth. I constantly motivate the next generation to be active citizens—to vote, to stay aware of social issues, and to give back to humanity through blood and organ donation.",
+    kiran_quote: "\"Leadership is not a position; it is the responsibility to leave no one behind.\"",
 
     // About Netra
     netra_title: "Meet Smt. Netra Kiran Patil",
-    netra_p1:
-      "Born in Kolhapur and later pursuing her education in Mumbai, Mrs. Netra Kiran Patil's journey reflects her belief that real change begins with action. A graduate in Commerce from Mumbai University, she further strengthened her skills with a Diploma in Office Administration, shaping her people-centric and organized approach to leadership.",
-    netra_p2:
-      "Her political journey began in 2016 with the BJP, and since then, she has been actively involved in social initiatives, working alongside Shri Kiran Prakash Patil to address community needs and drive positive change.",
-    netra_p3:
-      "Today, she serves as a dedicated Corporator of the Panvel Municipal Corporation, where she consistently raises important questions on key social issues and works to create public awareness.",
-    netra_p4:
-      "Beyond politics, she contributes widely to community development as the Secretary of the Kharghar Sports Academy, promoting youth engagement, and as the Vice President of the Yuvaprerna Samajik Sanstha, driving social empowerment and grassroots initiatives.",
-    netra_p5:
-      "Her leadership extends far beyond conventional roles, reaching across sports, education, cultural activities, health initiatives, and every corner of community welfare.",
+    netra_s1_p1: "My journey began in the historic city of Kolhapur, where I developed a deep sense of community and service. Pursuing my higher education in Mumbai, I earned a Bachelor's degree in Commerce from Mumbai University and further strengthened my skills with a Diploma in Office Administration—shaping my people-centric and organized approach to leadership.",
+    netra_s1_p2: "My political journey began in 2016 with the BJP, and since then, I have been actively involved in social initiatives, working alongside Shri Kiran Prakash Patil to address community needs and drive positive change.",
+    netra_s2_h: "My Roles & Responsibilities",
+    netra_s2_b1_l: "Legislative Advocacy:", netra_s2_b1_t: "As a dedicated Corporator of the Panvel Municipal Corporation, I consistently raise important questions on key social issues, ensuring the voice of every citizen is heard in the halls of governance.",
+    netra_s2_b2_l: "Public Awareness:", netra_s2_b2_t: "I work tirelessly to create public awareness on critical matters affecting our community, empowering citizens with the information they need to make informed decisions.",
+    netra_s2_b3_l: "Community Welfare:", netra_s2_b3_t: "I am committed to addressing the needs of every section of society, with special focus on the underprivileged and marginalized, ensuring no one is left behind.",
+    netra_s3_h: "Beyond Politics: Building a Better Society",
+    netra_s3_b1_l: "Youth & Sports:", netra_s3_b1_t: "As the Secretary of the Kharghar Sports Academy, I actively promote youth engagement and sports development, nurturing the talents and energy of the next generation.",
+    netra_s3_b2_l: "Social Empowerment:", netra_s3_b2_t: "As the Vice President of the Yuvaprerna Samajik Sanstha, I drive social empowerment and grassroots initiatives that create lasting, meaningful change in people's lives.",
+    netra_s3_b3_l: "Cultural & Health Initiatives:", netra_s3_b3_t: "I organise and support cultural activities, health camps, and educational programmes that enrich and uplift people across all walks of life.",
+    netra_s4_p: "My leadership extends far beyond conventional roles, reaching across sports, education, cultural activities, health initiatives, and every corner of community welfare. I am committed to building a better, more inclusive society—one step at a time.",
 
     // Mission (shared)
     mission_heading: "Mission",
@@ -148,10 +150,45 @@ const translations = {
 
     // People's Voice
     peoples_voice: "People's Voice",
-    pv_1: "Initiated a rural education campaign enrolling 10,000+ children into government schools. Focused on girl-child education and dropout recovery.",
-    pv_2: "Digital vans equipped with tablets brought smiles to tribal children learning ABCs for the first time.",
-    pv_3: "Empowered village youth through basic digital literacy sessions, enabling better job opportunities.",
-    pv_4: "Scholarship helped my daughter continue schooling. I'm grateful to the initiative.",
+    pv_1: "Thanks to Kiran Prakash Patil's persistence, our main roads are finally smooth and pothole-free. My daily commute is shorter and much safer now—his work speaks for itself!",
+    pv_1_by: "— Rajesh M., Local Resident",
+    pv_2: "The new street lights and traffic signals near the school have made a world of difference for our children's safety. We feel much more secure walking home in the evenings thanks to Patil Saheb's initiative.",
+    pv_2_by: "— Sunita Deshmukh, Home Maker",
+    pv_3: "We used to struggle with inconsistent water pressure for years, but Kiran Patil made sure our pipelines were upgraded. It's a relief to have a leader who actually listens to the basic needs of the elderly.",
+    pv_3_by: "— Vinayak Rao, Retired Teacher",
+    pv_4: "I never thought we'd have a professional-grade sports ground in our area, but Shri Patil made it happen. He is truly empowering the youth by giving us the right facilities to chase our dreams.",
+    pv_4_by: "— Sameer Khan, Local Footballer",
+    pv_5: "During my father's medical emergency, the free health camp organized by Kiran Prakash Patil was a lifesaver. His dedication to providing healthcare for the poor is a blessing to our community.",
+    pv_5_by: "— Anjali Gupta, Resident",
+    pv_6: "I was worried about my son's future because of our financial situation, but Patil Saheb helped us secure a school admission. He doesn't just give speeches; he ensures every child gets a chance to study.",
+    pv_6_by: "— Ramesh Jadhav, Daily Wage Earner",
+    pv_7: "The blood donation drives organized by Kiran Patil are always so well-managed and impactful. It's inspiring to see a leader who consistently puts human life and service above everything else.",
+    pv_7_by: "— Dr. Amit Shah, Volunteer",
+    pv_8: "By fixing the traffic congestion and drainage issues in our market area, Kiran Prakash Patil has helped local businesses thrive. He is a man of action who understands the pulse of our city.",
+    pv_8_by: "— Vikram Singh, Shop Owner",
+
+    // Query / Contact
+    nav_query: "Query",
+    query_title: "Get in Touch",
+    query_subtitle: "Have a question, concern, or need assistance? Reach out and we'll respond as soon as possible.",
+    query_form_title: "Send Us a Message",
+    query_name: "Full Name",
+    query_name_ph: "Enter your full name",
+    query_email: "Email Address",
+    query_email_ph: "Enter your email",
+    query_phone: "Phone Number",
+    query_phone_ph: "Enter your phone number",
+    query_subject: "Subject",
+    query_subject_ph: "What is this regarding?",
+    query_message: "Message",
+    query_message_ph: "Write your message here...",
+    query_send: "Send Message",
+    query_sent: "Message Sent! We will get back to you soon.",
+    query_contact_title: "Contact Information",
+    query_address_label: "Office Address",
+    query_phone_label: "Phone",
+    query_email_label: "Email",
+    query_follow: "Follow Us",
 
     // EventDetails
     event_back: "← Back to Events",
@@ -207,38 +244,40 @@ const translations = {
     footer_copyright: "© 2025 किरण पाटिल। सर्वाधिकार सुरक्षित। | Codifyne द्वारा विकसित",
 
     // About Kiran
-    kiran_title: "श्री किरण प्रकाश पाटिल से मिलें",
-    kiran_p1:
-      "श्री किरण प्रकाश पाटिल एक साधारण किसान परिवार से हैं। उनका जन्म महाराष्ट्र के जलगांव जिले में हुआ, उन्होंने अपने गांव में प्राथमिक शिक्षा पूरी की और बाद में नासिक में माध्यमिक शिक्षा प्राप्त की।",
-    kiran_p2:
-      "उन्होंने सामाजिक विज्ञान में स्नातक डिग्री के साथ अपनी यात्रा शुरू की, जहाँ उन्होंने समझा कि समाज कैसे काम करता है और सार्थक बदलाव कैसे होता है। ज्ञान की तलाश में उन्होंने मेडिकल लेबोरेटरी टेक्नोलॉजी में डिप्लोमा प्राप्त किया, जिससे उन्हें स्वास्थ्य सेवा और सामुदायिक कल्याण का महत्व समझ आया।",
-    kiran_p3:
-      "सीखना कभी न रोकने वाले व्यक्ति होने के नाते, उन्होंने जन संपर्क प्रबंधन में पोस्ट ग्रेजुएट डिप्लोमा पूरा किया, जिससे लोगों से जुड़ने, प्रभावी ढंग से संवाद करने और सहानुभूति के साथ नेतृत्व करने के कौशल विकसित हुए।",
-    kiran_p4:
-      "उनकी शैक्षणिक यात्रा के हर कदम ने उन्हें एक ऐसे नेता के रूप में ढाला है जो समझ, करुणा और दृष्टि का संगम है — जो मानते हैं कि शिक्षा केवल एक योग्यता नहीं, बल्कि दूसरों की बेहतर सेवा करने का एक साधन है।",
-    kiran_p5:
-      "वे 2002 में मुंबई आए, और दो साल बाद, 2004 में, राजनीति में अपने पहले कदम रखे, सार्वजनिक सेवा के प्रति समर्पित जीवन की नींव रखी। चिकित्सा चुनौतियों का सामना करने वाले लोग अक्सर उनसे मार्गदर्शन लेते हैं, उपचार और प्रक्रियाओं में स्थिर सहायता पाते हैं।",
-    kiran_p6:
-      "पुलिस, सिडको, नगर निगम और तहसीलदार कार्यालय के साथ मजबूत कार्यसंबंध सार्वजनिक समस्याओं का त्वरित समाधान सुनिश्चित करते हैं। प्रिंट और इलेक्ट्रॉनिक मीडिया भी उनके काम को मान्यता देता है और अक्सर उनकी पहलों का समर्थन करता है।",
-    kiran_p7:
-      "हमारे सफाई कर्मचारी और कचरा संग्रहकर्ता, सच्चे स्वच्छता दूत जो शहर को स्वच्छ रखते हैं, को निरंतर सहायता मिलती है। उनकी सुरक्षा सुनिश्चित करने के लिए टीटी इंजेक्शन और बुनियादी सुरक्षात्मक देखभाल प्रदान की जाती है।",
-    kiran_p8:
-      "मूलतः वे एक निःस्वार्थ व्यक्ति हैं जो अमीर और गरीब दोनों के साथ समान गरिमा से पेश आते हैं, न्याय के लिए खड़े होते हैं, और जो अनसुने महसूस करते हैं उन्हें आवाज़ देते हैं। वे जाति या धर्म से परे मानवता को प्राथमिकता देते हैं और लोगों को एकजुट करने के लिए काम करते हैं।",
-    kiran_p9:
-      "वे युवाओं को रक्त और अंग दान करने, सक्रिय रूप से मतदान करने और स्थानीय सामाजिक मुद्दों में जागरूक और शामिल रहने के लिए निरंतर प्रेरित करते हैं।",
+    kiran_title: "मेरी यात्रा, मेरी प्रतिबद्धता",
+    kiran_s1_h: "मिट्टी से जड़ुाव",
+    kiran_s1_p1: "मेरा जन्म महाराष्ट्र के जलगांव जिले के एक साधारण किसान परिवार में हुआ था। बड़े होते हुए मैंने उन लोगों के संघर्ष और जीवंतता को करीब से देखा जो जमीन से जुड़े हैं। इन शुरुआती वर्षों ने मुझमें कड़ी मेहनत और सामुदायिक भावना के प्रति गहरा सम्मान पैदा किया—ये वही मूल्य हैं जो आज भी मेरे हर कार्य का मार्गदर्शन करते हैं।",
+    kiran_s1_p2: "हालांकि मेरी जड़ें जलगांव में हैं, लेकिन मेरी माध्यमिक शिक्षा नासिक में हुई, जिसने मेरे क्षितिज का विस्तार किया और मुझे सेवा के जीवन के लिए तैयार किया।",
+    kiran_s2_h: "सेवा के माध्यम के रूप में शिक्षा",
+    kiran_s2_intro: "मेरा हमेशा से मानना रहा है कि शिक्षा केवल डिग्रियों का संग्रह नहीं है, बल्कि दूसरों की बेहतर सेवा करने का एक साधन है। मेरी शैक्षणिक पृष्ठभूमि नेतृत्व के प्रति मेरे बहुमुखी दृष्टिकोण को दर्शाती है:",
+    kiran_s2_b1_l: "सामाजिक विज्ञान:", kiran_s2_b1_t: "मैंने स्नातक की डिग्री के साथ शुरुआत की ताकि यह समझ सकूं कि समाज कैसे कार्य करता है और सार्थक परिवर्तन के बीज कैसे बोए जाते हैं।",
+    kiran_s2_b2_l: "स्वास्थ्य देखभाल अंतर्दृष्टि:", kiran_s2_b2_t: "मेडिकल लेबोरेटरी टेक्नोलॉजी (DMLT) में डिप्लोमा प्राप्त करने से मुझे तकनीकी दृष्टिकोण से स्वास्थ्य और सामुदायिक कल्याण के महत्व को समझने में मदद मिली।",
+    kiran_s2_b3_l: "संचार और नेतृत्व:", kiran_s2_b3_t: "लोगों से बेहतर जुड़ने के लिए, मैंने जनसंपर्क प्रबंधन में पोस्ट ग्रेजुएट डिप्लोमा पूरा किया, ताकि पारदर्शिता के साथ नेतृत्व करने के लिए आवश्यक सहानुभूति और संचार कौशल विकसित कर सकूं।",
+    kiran_s3_h: "सार्वजनिक सेवा के दो दशक",
+    kiran_s3_p1: "मैं 2002 में मुंबई आया और 2004 में मैंने राजनीतिक क्षेत्र में अपना पहला औपचारिक कदम रखा। मेरा मिशन तब से अपरिवर्तित है: जनता और उनकी समस्याओं के समाधान के बीच एक सेतु बनना।",
+    kiran_s4_h: "जनता के साथ खड़ा होना",
+    kiran_s4_b1_l: "चिकित्सा मार्गदर्शन:", kiran_s4_b1_t: "स्वास्थ्य संकट भारी पड़ सकते हैं। मैं नागरिकों को जटिल चिकित्सा उपचारों और प्रक्रियाओं के माध्यम से मार्गदर्शन देना अपनी प्राथमिकता बनाता हूं।",
+    kiran_s4_b2_l: "प्रशासनिक समन्वय:", kiran_s4_b2_t: "मैं पुलिस, सिडको (CIDCO), नगर निगम और तहसीलदार कार्यालय के साथ मजबूत और पेशेवर संबंध बनाए रखता हूँ। ये संबंध व्यक्तिगत लाभ के लिए नहीं, बल्कि यह सुनिश्चित करने के लिए हैं कि आपकी चिंताओं का समाधान शीघ्रता और न्याय के साथ किया जाए।",
+    kiran_s4_b3_l: "स्वच्छता दूतों का सशक्तिकरण:", kiran_s4_b3_t: "हमारे स्वच्छता कर्मचारी और कचरा संग्रहकर्ता शहर की सफाई की रीढ़ हैं। मैं उनकी सुरक्षा के लिए प्रतिबद्ध हूं, उन्हें सुरक्षात्मक देखभाल और आवश्यक टीटी (TT) इंजेक्शन के माध्यम से निरंतर सहायता प्रदान करता हूं।",
+    kiran_s5_h: "मेरा मूल दर्शन: मानवता सर्वोपरि",
+    kiran_s5_p1: "मैं लोगों का एक निस्वार्थ सेवक हूं। मैं जाति, धर्म या सामाजिक स्थिति नहीं देखता। चाहे अमीर हो या गरीब, मेरे दरवाजे पर आने वाले हर व्यक्ति के साथ समान गरिमा और सम्मान के साथ व्यवहार किया जाता है।",
+    kiran_s5_b1_l: "अनसुनी आवाजों का स्वर:", kiran_s5_b1_t: "मैं न्याय के लिए दृढ़ता से खड़ा रहता हूं, विशेष रूप से उन लोगों के लिए जो महसूस करते हैं कि उनकी आवाज दबा दी गई है।",
+    kiran_s5_b2_l: "भविष्य का निर्माण:", kiran_s5_b2_t: "मैं अपने युवाओं का अथक समर्थक हूं। मैं अगली पीढ़ी को सक्रिय नागरिक बनने—मतदान करने, सामाजिक मुद्दों के प्रति जागरूक रहने और रक्तदान एवं अंगदान के माध्यम से मानवता की सेवा करने के लिए निरंतर प्रेरित करता हूं।",
+    kiran_quote: "\"नेतृत्व कोई पद नहीं है; यह एक जिम्मेदारी है कि कोई भी पीछे न छूटे।\"",
 
     // About Netra
     netra_title: "सौ. नेत्रा किरण पाटिल से मिलें",
-    netra_p1:
-      "कोल्हापुर में जन्मी और बाद में मुंबई में शिक्षा प्राप्त करने वाली श्रीमती नेत्रा किरण पाटिल की यात्रा उनके इस विश्वास को दर्शाती है कि वास्तविक बदलाव कार्रवाई से शुरू होता है। मुंबई विश्वविद्यालय से वाणिज्य में स्नातक, उन्होंने कार्यालय प्रशासन में डिप्लोमा के साथ अपने कौशल को और मजबूत किया, जिससे उनका जन-केंद्रित और सुव्यवस्थित नेतृत्व दृष्टिकोण विकसित हुआ।",
-    netra_p2:
-      "उनकी राजनीतिक यात्रा 2016 में भाजपा के साथ शुरू हुई, और तब से वे सामाजिक पहलों में सक्रिय रूप से शामिल हैं, श्री किरण प्रकाश पाटिल के साथ मिलकर सामुदायिक जरूरतों को पूरा करने और सकारात्मक बदलाव लाने के लिए काम कर रही हैं।",
-    netra_p3:
-      "आज, वे पनवेल नगर निगम की समर्पित पार्षद के रूप में कार्य करती हैं, जहाँ वे लगातार प्रमुख सामाजिक मुद्दों पर महत्वपूर्ण प्रश्न उठाती हैं और सार्वजनिक जागरूकता बनाने के लिए काम करती हैं।",
-    netra_p4:
-      "राजनीति से परे, वे खारघर स्पोर्ट्स अकादमी की सचिव के रूप में युवा भागीदारी को बढ़ावा देकर और युवाप्रेरणा सामाजिक संस्था की उपाध्यक्ष के रूप में सामाजिक सशक्तिकरण और जमीनी स्तर की पहल चलाकर सामुदायिक विकास में व्यापक योगदान देती हैं।",
-    netra_p5:
-      "उनका नेतृत्व पारंपरिक भूमिकाओं से कहीं आगे है, खेल, शिक्षा, सांस्कृतिक गतिविधियों, स्वास्थ्य पहलों और सामुदायिक कल्याण के हर कोने तक पहुँचता है।",
+    netra_s1_p1: "मेरी यात्रा ऐतिहासिक शहर कोल्हापुर से शुरू हुई, जहाँ मैंने समुदाय और सेवा की गहरी भावना विकसित की। मुंबई में उच्च शिक्षा प्राप्त करते हुए, मैंने मुंबई विश्वविद्यालय से वाणिज्य में स्नातक की डिग्री प्राप्त की और कार्यालय प्रशासन में डिप्लोमा के साथ अपने कौशल को और मजबूत किया—जिसने मेरे जन-केंद्रित और सुव्यवस्थित नेतृत्व दृष्टिकोण को आकार दिया।",
+    netra_s1_p2: "मेरी राजनीतिक यात्रा 2016 में भाजपा के साथ शुरू हुई, और तब से मैं सामाजिक पहलों में सक्रिय रूप से शामिल हूँ, सामुदायिक जरूरतों को पूरा करने और सकारात्मक बदलाव लाने के लिए श्री किरण प्रकाश पाटिल के साथ मिलकर काम कर रही हूँ।",
+    netra_s2_h: "मेरी भूमिकाएँ और जिम्मेदारियाँ",
+    netra_s2_b1_l: "विधायी वकालत:", netra_s2_b1_t: "पनवेल नगर निगम की एक समर्पित पार्षद के रूप में, मैं प्रमुख सामाजिक मुद्दों पर लगातार महत्वपूर्ण प्रश्न उठाती हूँ, यह सुनिश्चित करते हुए कि शासन के गलियारों में हर नागरिक की आवाज सुनी जाए।",
+    netra_s2_b2_l: "जन जागरूकता:", netra_s2_b2_t: "मैं हमारे समुदाय को प्रभावित करने वाले महत्वपूर्ण मामलों पर सार्वजनिक जागरूकता बनाने के लिए अथक परिश्रम करती हूँ, नागरिकों को सूचित निर्णय लेने के लिए आवश्यक जानकारी से सशक्त बनाती हूँ।",
+    netra_s2_b3_l: "सामुदायिक कल्याण:", netra_s2_b3_t: "मैं समाज के हर वर्ग की जरूरतों को पूरा करने के लिए प्रतिबद्ध हूँ, विशेष रूप से वंचितों और हाशिए पर रहने वाले लोगों पर विशेष ध्यान देती हूँ, यह सुनिश्चित करते हुए कि कोई भी पीछे न रहे।",
+    netra_s3_h: "राजनीति से परे: एक बेहतर समाज का निर्माण",
+    netra_s3_b1_l: "युवा और खेल:", netra_s3_b1_t: "खारघर स्पोर्ट्स अकादमी की सचिव के रूप में, मैं अगली पीढ़ी की प्रतिभाओं और ऊर्जा को पोषित करते हुए, हमारे क्षेत्र में युवा भागीदारी और खेल विकास को सक्रिय रूप से बढ़ावा देती हूँ।",
+    netra_s3_b2_l: "सामाजिक सशक्तिकरण:", netra_s3_b2_t: "युवाप्रेरणा सामाजिक संस्था की उपाध्यक्ष के रूप में, मैं सामाजिक सशक्तिकरण और जमीनी स्तर की पहल चलाती हूँ जो लोगों के जीवन में स्थायी और सार्थक बदलाव लाती हैं।",
+    netra_s3_b3_l: "सांस्कृतिक और स्वास्थ्य पहल:", netra_s3_b3_t: "मैं सांस्कृतिक गतिविधियों, स्वास्थ्य शिविरों और शैक्षणिक कार्यक्रमों का आयोजन और समर्थन करती हूँ जो जीवन के हर क्षेत्र के लोगों को समृद्ध और उत्थान प्रदान करते हैं।",
+    netra_s4_p: "मेरा नेतृत्व पारंपरिक भूमिकाओं से कहीं आगे है, खेल, शिक्षा, सांस्कृतिक गतिविधियों, स्वास्थ्य पहलों और सामुदायिक कल्याण के हर कोने तक पहुँचता है। मैं एक बेहतर, अधिक समावेशी समाज बनाने के लिए प्रतिबद्ध हूँ—एक कदम एक बार।",
 
     // Mission
     mission_heading: "मिशन",
@@ -310,10 +349,45 @@ const translations = {
 
     // People's Voice
     peoples_voice: "लोगों की आवाज़",
-    pv_1: "10,000+ बच्चों को सरकारी स्कूलों में नामांकित कराने का ग्रामीण शिक्षा अभियान शुरू किया। बालिका शिक्षा और ड्रॉपआउट रिकवरी पर ध्यान केंद्रित किया।",
-    pv_2: "टैबलेट से सुसज्जित डिजिटल वैन ने आदिवासी बच्चों के चेहरे पर मुस्कान लाई जो पहली बार वर्णमाला सीख रहे थे।",
-    pv_3: "बुनियादी डिजिटल साक्षरता सत्रों के माध्यम से गांव के युवाओं को सशक्त किया, जिससे बेहतर रोजगार के अवसर मिले।",
-    pv_4: "छात्रवृत्ति ने मेरी बेटी को पढ़ाई जारी रखने में मदद की। मैं इस पहल के लिए आभारी हूँ।",
+    pv_1: "किरण प्रकाश पाटिल की लगन के कारण हमारी मुख्य सड़कें अब चिकनी और गड्ढामुक्त हो गई हैं। मेरा दैनिक सफर अब छोटा और बहुत सुरक्षित है—उनका काम खुद बोलता है!",
+    pv_1_by: "— राजेश एम., स्थानीय निवासी",
+    pv_2: "स्कूल के पास नई स्ट्रीट लाइटें और ट्रैफिक सिग्नल हमारे बच्चों की सुरक्षा के लिए बहुत बड़ा बदलाव लाए हैं। पाटिल साहब की पहल की वजह से शाम को घर वापस आते समय हम बहुत अधिक सुरक्षित महसूस करते हैं।",
+    pv_2_by: "— सुनीता देशमुख, गृहिणी",
+    pv_3: "हम सालों से अनियमित पानी के दबाव से जूझ रहे थे, लेकिन किरण पाटिल ने सुनिश्चित किया कि हमारी पाइपलाइनें अपग्रेड हों। ऐसे नेता होना राहत की बात है जो बुजुर्गों की बुनियादी जरूरतों को वाकई सुनते हैं।",
+    pv_3_by: "— विनायक राव, सेवानिवृत्त शिक्षक",
+    pv_4: "मैंने कभी नहीं सोचा था कि हमारे इलाके में एक पेशेवर स्तर का खेल मैदान होगा, लेकिन श्री पाटिल ने इसे सच कर दिया। वे सच में युवाओं को सशक्त बना रहे हैं, हमें सपने पूरे करने के सही साधन देकर।",
+    pv_4_by: "— समीर खान, स्थानीय फुटबॉलर",
+    pv_5: "मेरे पिता की चिकित्सा आपातस्थिति के दौरान, किरण प्रकाश पाटिल द्वारा आयोजित मुफ्त स्वास्थ्य शिविर एक जीवनरक्षक साबित हुआ। गरीबों को स्वास्थ्य सेवा प्रदान करने के प्रति उनकी लगन हमारे समुदाय के लिए वरदान है।",
+    pv_5_by: "— अंजलि गुप्ता, निवासी",
+    pv_6: "मैं हमारी आर्थिक स्थिति के कारण अपने बेटे के भविष्य को लेकर चिंतित था, लेकिन पाटिल साहब ने हमें स्कूल में प्रवेश दिलाने में मदद की। वे केवल भाषण नहीं देते; वे सुनिश्चित करते हैं कि हर बच्चे को पढ़ने का मौका मिले।",
+    pv_6_by: "— रमेश जाधव, दैनिक मजदूर",
+    pv_7: "किरण पाटिल द्वारा आयोजित रक्तदान शिविर हमेशा बहुत अच्छी तरह से प्रबंधित और प्रभावशाली होते हैं। ऐसे नेता को देखकर प्रेरणा मिलती है जो हमेशा मानव जीवन और सेवा को सर्वोपरि रखता है।",
+    pv_7_by: "— डॉ. अमित शाह, स्वयंसेवक",
+    pv_8: "हमारे बाजार क्षेत्र में यातायात की भीड़ और जल निकासी की समस्याओं को ठीक करके, किरण प्रकाश पाटिल ने स्थानीय व्यवसायों को फलने-फूलने में मदद की है। वे एक कर्मठ व्यक्ति हैं जो हमारे शहर की नब्ज को समझते हैं।",
+    pv_8_by: "— विक्रम सिंह, दुकानदार",
+
+    // Query / Contact
+    nav_query: "पूछताछ",
+    query_title: "संपर्क करें",
+    query_subtitle: "कोई सवाल, चिंता या सहायता चाहिए? हमसे संपर्क करें और हम जल्द से जल्द जवाब देंगे।",
+    query_form_title: "हमें संदेश भेजें",
+    query_name: "पूरा नाम",
+    query_name_ph: "अपना पूरा नाम दर्ज करें",
+    query_email: "ईमेल पता",
+    query_email_ph: "अपना ईमेल दर्ज करें",
+    query_phone: "फोन नंबर",
+    query_phone_ph: "अपना फोन नंबर दर्ज करें",
+    query_subject: "विषय",
+    query_subject_ph: "यह किस बारे में है?",
+    query_message: "संदेश",
+    query_message_ph: "अपना संदेश यहाँ लिखें...",
+    query_send: "संदेश भेजें",
+    query_sent: "संदेश भेज दिया गया! हम जल्द ही आपसे संपर्क करेंगे।",
+    query_contact_title: "संपर्क जानकारी",
+    query_address_label: "कार्यालय पता",
+    query_phone_label: "फोन",
+    query_email_label: "ईमेल",
+    query_follow: "हमें फॉलो करें",
 
     // EventDetails
     event_back: "← कार्यक्रमों पर वापस जाएं",
@@ -369,38 +443,40 @@ const translations = {
     footer_copyright: "© 2025 किरण पाटील. सर्व हक्क राखीव. | Codifyne द्वारा विकसित",
 
     // About Kiran
-    kiran_title: "श्री किरण प्रकाश पाटील यांना भेटा",
-    kiran_p1:
-      "श्री किरण प्रकाश पाटील एका साध्या शेतकरी कुटुंबातून आले आहेत. त्यांचा जन्म महाराष्ट्रातील जळगाव जिल्ह्यात झाला, त्यांनी आपल्या गावात प्राथमिक शिक्षण पूर्ण केले आणि नंतर नाशिकमध्ये माध्यमिक शिक्षण घेतले.",
-    kiran_p2:
-      "त्यांनी सामाजिक शास्त्रात पदवी घेऊन आपला प्रवास सुरू केला, जिथे त्यांना समाज कसे कार्य करतो आणि सार्थक बदल कसा होतो याची समज विकसित झाली. ज्ञानाच्या शोधात ते मेडिकल लॅबोरेटरी टेक्नॉलॉजीमध्ये डिप्लोमा मिळवण्यासाठी गेले, जेणेकरून त्यांना आरोग्यसेवा आणि सामुदायिक कल्याणाचे महत्त्व समजले.",
-    kiran_p3:
-      "शिकणे कधीही न थांबवणारे असल्याने, त्यांनी जन संपर्क व्यवस्थापनात पदव्युत्तर डिप्लोमा पूर्ण केला, लोकांशी जोडणे, प्रभावीपणे संवाद साधणे आणि सहानुभूतीसह नेतृत्व करण्याची कौशल्ये विकसित केली.",
-    kiran_p4:
-      "त्यांच्या शैक्षणिक प्रवासातील प्रत्येक पाऊल त्यांना असा नेता बनवण्यास घडवले जो समज, करुणा आणि दृष्टी यांचे संयोजन आहे — जे मानतात की शिक्षण केवळ एक पात्रता नाही, तर इतरांची चांगली सेवा करण्याचे एक साधन आहे.",
-    kiran_p5:
-      "ते 2002 मध्ये मुंबईत आले, आणि दोन वर्षांनंतर, 2004 मध्ये, राजकारणात पहिले पाऊल टाकले, सार्वजनिक सेवेसाठी समर्पित जीवनाचा पाया रचला. वैद्यकीय आव्हानांचा सामना करणारे लोक अनेकदा त्यांच्याकडे मार्गदर्शन घेतात, उपचार आणि प्रक्रियांमध्ये स्थिर आधार मिळवतात.",
-    kiran_p6:
-      "पोलीस, सिडको, महानगरपालिका आणि तहसीलदार कार्यालयाशी मजबूत कार्यसंबंध सार्वजनिक समस्यांचे जलद निराकरण सुनिश्चित करतात. प्रिंट आणि इलेक्ट्रॉनिक माध्यमेही त्यांच्या कार्याला ओळखतात आणि अनेकदा त्यांच्या उपक्रमांना पाठिंबा देतात.",
-    kiran_p7:
-      "आपले सफाई कामगार आणि कचरा संकलक, खरे स्वच्छता दूत जे शहर स्वच्छ ठेवतात, त्यांना सातत्याने मदत मिळते. त्यांच्या सुरक्षिततेसाठी टीटी इंजेक्शन आणि मूलभूत संरक्षणात्मक काळजी दिली जाते.",
-    kiran_p8:
-      "मुळात ते एक निःस्वार्थ व्यक्ती आहेत जे श्रीमंत आणि गरीब दोघांशीही समान प्रतिष्ठेने वागतात, न्यायासाठी उभे राहतात आणि जे अनुपेक्षित वाटतात त्यांना आवाज देतात. ते जाती किंवा धर्माच्या पलीकडे मानवतेला प्रथम स्थान देतात आणि लोकांना एकत्र आणण्यासाठी कार्य करतात.",
-    kiran_p9:
-      "ते तरुणांना रक्त आणि अवयव दान करण्यास, सक्रियपणे मतदान करण्यास आणि स्थानिक सामाजिक प्रश्नांमध्ये जागरूक आणि सहभागी राहण्यास सातत्याने प्रेरित करतात.",
+    kiran_title: "माझा प्रवास, माझी कटिबद्धता",
+    kiran_s1_h: "मातीशी नातं",
+    kiran_s1_p1: "माझा जन्म महाराष्ट्रातील जळगाव जिल्ह्यातील एका सामान्य शेतकरी कुटुंबात झाला. मातीत राबणाऱ्या कष्टकऱ्यांची जिद्द आणि त्यांची आव्हाने मी जवळून पाहिली आहेत. या सुरुवातीच्या काळाने माझ्यामध्ये कठोर परिश्रम आणि सामाजिक बांधिलकीबद्दल आदर निर्माण केला—हेच संस्कार आजही माझ्या प्रत्येक कृतीला दिशा देतात.",
+    kiran_s1_p2: "माझे मूळ जळगावचे असले तरी, माध्यमिक शिक्षणासाठी मी नाशिकला गेलो, जिथे माझ्या कक्षा रुंदावल्या आणि मी समाजसेवेच्या प्रवासासाठी सज्ज झालो.",
+    kiran_s2_h: "सेवेचे साधन म्हणून शिक्षण",
+    kiran_s2_intro: "शिक्षण म्हणजे केवळ पदव्यांचा संग्रह नसून, इतरांची प्रभावीपणे सेवा करण्याचे ते एक साधन आहे, अशी माझी धारणा आहे. माझी शैक्षणिक पार्श्वभूमी माझ्या नेतृत्वाचा बहुआयामी दृष्टिकोन दर्शवते:",
+    kiran_s2_b1_l: "समाजशास्त्र:", kiran_s2_b1_t: "समाजाची जडणघडण कशी होते आणि परिवर्तनाचे बीज कसे रोवता येईल, हे समजून घेण्यासाठी मी पदवी शिक्षण पूर्ण केले.",
+    kiran_s2_b2_l: "आरोग्य सेवा दृष्टीकोन:", kiran_s2_b2_t: "मेडिकल लॅबोरेटरी टेक्नॉलॉजी (DMLT) मधील पदविकेमुळे मला आरोग्य आणि लोककल्याणाचे महत्त्व तांत्रिक दृष्टिकोनातून समजले.",
+    kiran_s2_b3_l: "संवाद आणि नेतृत्व:", kiran_s2_b3_t: "लोकांशी अधिक चांगल्या प्रकारे जोडले जाण्यासाठी, मी जनसंपर्क व्यवस्थापनात (PR Management) पदव्युत्तर पदविका पूर्ण केली, ज्यामुळे पारदर्शक नेतृत्व करण्यासाठी आवश्यक कौशल्ये मला आत्मसात करता आली.",
+    kiran_s3_h: "सार्वजनिक सेवेची दोन दशके",
+    kiran_s3_p1: "मी २००२ मध्ये मुंबईत आलो आणि २००४ मध्ये राजकीय क्षेत्रात पहिले पाऊल टाकले. जनता आणि त्यांच्या समस्यांवरील उपाय यांच्यातील एक 'सेतू' बनणे, हे माझे उद्दिष्ट तेव्हापासून कायम आहे.",
+    kiran_s4_h: "जनतेच्या पाठीशी खंबीरपणे",
+    kiran_s4_b1_l: "वैद्यकीय मार्गदर्शन:", kiran_s4_b1_t: "आरोग्याचे संकट कठीण असते. अशा वेळी नागरिकांना क्लिष्ट वैद्यकीय उपचार आणि प्रक्रियेत मार्गदर्शन करणे ही माझी प्राथमिकता असते, जेणेकरून त्यांना एकाकी वाटू नये.",
+    kiran_s4_b2_l: "प्रशासकीय समन्वय:", kiran_s4_b2_t: "पोलीस, सिडको (CIDCO), महानगरपालिका आणि तहसीलदार कार्यालयाशी मी सलोख्याचे व व्यावसायिक संबंध जपतो. हे संबंध वैयक्तिक फायद्यासाठी नसून, तुमच्या समस्यांचे निराकरण वेगाने आणि न्यायाने व्हावे यासाठी आहेत.",
+    kiran_s4_b3_l: "'स्वच्छता दूतां'चे सक्षमीकरण:", kiran_s4_b3_t: "आमचे स्वच्छता कर्मचारी शहराचा कणा आहेत. त्यांच्या सुरक्षिततेसाठी मी कटिबद्ध असून, त्यांना संरक्षक साधने आणि आवश्यक टीटी (TT) इंजेक्शनद्वारे सातत्याने सहकार्य करतो.",
+    kiran_s5_h: "माझे मूळ तत्त्वज्ञान: माणुसकी प्रथम",
+    kiran_s5_p1: "मी जनतेचा एक निस्वार्थ सेवक आहे. मी जात, धर्म किंवा सामाजिक स्तर मानत नाही. माझ्या दारात येणाऱ्या प्रत्येक व्यक्तीला, मग ती श्रीमंत असो वा गरीब, तितक्याच आदराने आणि सन्मानाने वागवले जाते.",
+    kiran_s5_b1_l: "वंचितांचा आवाज:", kiran_s5_b1_t: "मी न्यायासाठी खंबीरपणे उभा राहतो, विशेषतः अशा लोकांसाठी ज्यांना वाटते की त्यांचा आवाज दाबला गेला आहे.",
+    kiran_s5_b2_l: "भविष्य घडवणे:", kiran_s5_b2_t: "मी तरुणांचा खंबीर समर्थक आहे. पुढच्या पिढीने सक्रिय नागरिक बनावे—मतदान करावे, सामाजिक प्रश्नांची जाणीव ठेवावी आणि रक्तदान व अवयवदानाद्वारे माणुसकीची सेवा करावी, यासाठी मी त्यांना नेहमीच प्रोत्साहित करतो.",
+    kiran_quote: "\"नेतृत्व म्हणजे केवळ पद नाही; तर कोणालाही मागे न ठेवण्याची ती एक जबाबदारी आहे.\"",
 
     // About Netra
     netra_title: "सौ. नेत्रा किरण पाटील यांना भेटा",
-    netra_p1:
-      "कोल्हापुरात जन्मलेल्या आणि नंतर मुंबईत शिक्षण घेतलेल्या श्रीमती नेत्रा किरण पाटील यांचा प्रवास त्यांच्या या विश्वासाचे प्रतिबिंब आहे की खरा बदल कृतीपासून सुरू होतो. मुंबई विद्यापीठातून वाणिज्य पदवीधर, त्यांनी कार्यालय प्रशासनात डिप्लोमाद्वारे आपली कौशल्ये आणखी मजबूत केली, जे त्यांच्या लोककेंद्रित आणि सुसंघटित नेतृत्व दृष्टिकोनाला आकार देते.",
-    netra_p2:
-      "त्यांचा राजकीय प्रवास 2016 मध्ये भाजपसोबत सुरू झाला, आणि तेव्हापासून त्या सामाजिक उपक्रमांमध्ये सक्रियपणे सहभागी आहेत, सामुदायिक गरजा पूर्ण करण्यासाठी आणि सकारात्मक बदल घडवण्यासाठी श्री किरण प्रकाश पाटील यांच्यासोबत काम करत आहेत.",
-    netra_p3:
-      "आज, त्या पनवेल महानगरपालिकेच्या समर्पित नगरसेविका म्हणून कार्य करतात, जिथे त्या सातत्याने प्रमुख सामाजिक प्रश्नांवर महत्त्वाचे प्रश्न विचारतात आणि सार्वजनिक जागरूकता निर्माण करण्यासाठी कार्य करतात.",
-    netra_p4:
-      "राजकारणाच्या पलीकडे, त्या खारघर स्पोर्ट्स अकादमीच्या सचिव म्हणून युवा सहभागाला प्रोत्साहन देऊन आणि युवाप्रेरणा सामाजिक संस्थेच्या उपाध्यक्ष म्हणून सामाजिक सक्षमीकरण आणि जमिनीवरील उपक्रम चालवून सामुदायिक विकासात व्यापक योगदान देतात.",
-    netra_p5:
-      "त्यांचे नेतृत्व पारंपरिक भूमिकांच्या खूप पलीकडे पोहोचते, क्रीडा, शिक्षण, सांस्कृतिक उपक्रम, आरोग्य उपक्रम आणि सामुदायिक कल्याणाच्या प्रत्येक कोपऱ्यात.",
+    netra_s1_p1: "माझा प्रवास कोल्हापुरच्या ऐतिहासिक नगरीतून सुरू झाला, जिथे मी समाज आणि सेवेची खोल भावना विकसित केली. मुंबईत उच्च शिक्षण घेताना, मी मुंबई विद्यापीठातून वाणिज्य पदवी मिळवली आणि कार्यालय प्रशासनात डिप्लोमाद्वारे माझी कौशल्ये आणखी मजबूत केली—ज्याने माझ्या लोककेंद्रित आणि सुसंघटित नेतृत्व दृष्टिकोनाला आकार दिला.",
+    netra_s1_p2: "माझा राजकीय प्रवास 2016 मध्ये भाजपसोबत सुरू झाला, आणि तेव्हापासून मी सामाजिक उपक्रमांमध्ये सक्रियपणे सहभागी आहे, सामुदायिक गरजा पूर्ण करण्यासाठी आणि सकारात्मक बदल घडवण्यासाठी श्री किरण प्रकाश पाटील यांच्यासोबत काम करत आहे.",
+    netra_s2_h: "माझ्या भूमिका आणि जबाबदाऱ्या",
+    netra_s2_b1_l: "विधिमंडळीय समर्थन:", netra_s2_b1_t: "पनवेल महानगरपालिकेची समर्पित नगरसेविका म्हणून, मी सातत्याने प्रमुख सामाजिक प्रश्नांवर महत्त्वाचे प्रश्न विचारते, हे सुनिश्चित करते की शासनाच्या दालनांमध्ये प्रत्येक नागरिकाचा आवाज ऐकला जावा.",
+    netra_s2_b2_l: "जनजागृती:", netra_s2_b2_t: "आमच्या समाजावर परिणाम करणाऱ्या महत्त्वाच्या विषयांवर सार्वजनिक जागरूकता निर्माण करण्यासाठी मी अथक परिश्रम करते, नागरिकांना माहितीपूर्ण निर्णय घेण्यासाठी आवश्यक माहितीने सक्षम बनवते.",
+    netra_s2_b3_l: "सामुदायिक कल्याण:", netra_s2_b3_t: "मी समाजाच्या प्रत्येक घटकाच्या गरजा पूर्ण करण्यासाठी कटिबद्ध आहे, विशेषतः वंचित आणि उपेक्षित वर्गावर विशेष लक्ष देते, हे सुनिश्चित करते की कोणालाही मागे सोडले जाऊ नये.",
+    netra_s3_h: "राजकारणाच्या पलीकडे: एक चांगल्या समाजाची उभारणी",
+    netra_s3_b1_l: "युवा आणि क्रीडा:", netra_s3_b1_t: "खारघर स्पोर्ट्स अकादमीची सचिव म्हणून, मी पुढच्या पिढीची प्रतिभा आणि ऊर्जा जोपासत आमच्या प्रदेशात युवा सहभाग आणि क्रीडा विकासाला सक्रियपणे प्रोत्साहन देते.",
+    netra_s3_b2_l: "सामाजिक सक्षमीकरण:", netra_s3_b2_t: "युवाप्रेरणा सामाजिक संस्थेची उपाध्यक्ष म्हणून, मी सामाजिक सक्षमीकरण आणि जमिनीवरील उपक्रम चालवते जे लोकांच्या जीवनात चिरस्थायी आणि अर्थपूर्ण बदल घडवतात.",
+    netra_s3_b3_l: "सांस्कृतिक आणि आरोग्य उपक्रम:", netra_s3_b3_t: "मी सांस्कृतिक उपक्रम, आरोग्य शिबिरे आणि शैक्षणिक कार्यक्रमांचे आयोजन करते जे जीवनाच्या सर्व क्षेत्रांतील लोकांचे जीवन समृद्ध आणि उन्नत करतात.",
+    netra_s4_p: "माझे नेतृत्व पारंपरिक भूमिकांच्या खूप पलीकडे पोहोचते, क्रीडा, शिक्षण, सांस्कृतिक उपक्रम, आरोग्य उपक्रम आणि सामुदायिक कल्याणाच्या प्रत्येक कोपऱ्यात. मी एक चांगला, अधिक समावेशक समाज घडवण्यासाठी कटिबद्ध आहे—एक एक पाऊल टाकत.",
 
     // Mission
     mission_heading: "ध्येय",
@@ -472,10 +548,45 @@ const translations = {
 
     // People's Voice
     peoples_voice: "लोकांचा आवाज",
-    pv_1: "10,000+ मुलांना सरकारी शाळांमध्ये नोंदणी करण्यासाठी ग्रामीण शिक्षण मोहीम सुरू केली. मुलींच्या शिक्षणावर आणि गळतीवर लक्ष केंद्रित केले.",
-    pv_2: "टॅब्लेटसह सज्ज डिजिटल वैन्सने आदिवासी मुलांच्या चेहऱ्यावर हास्य आणले जे पहिल्यांदा वर्णमाला शिकत होते.",
-    pv_3: "मूलभूत डिजिटल साक्षरता सत्रांद्वारे गावातील तरुणांना सक्षम केले, चांगल्या रोजगाराच्या संधी निर्माण झाल्या.",
-    pv_4: "शिष्यवृत्तीने माझ्या मुलीला शिक्षण सुरू ठेवण्यास मदत केली. या उपक्रमासाठी मी कृतज्ञ आहे.",
+    pv_1: "किरण प्रकाश पाटील यांच्या चिकाटीमुळे आमच्या मुख्य रस्त्यांवरील खड्डे बुजले आणि रस्ते गुळगुळीत झाले. माझा रोजचा प्रवास आता छोटा आणि खूपच सुरक्षित झाला आहे—त्यांचं काम स्वतःच बोलतं!",
+    pv_1_by: "— राजेश एम., स्थानिक रहिवासी",
+    pv_2: "शाळेजवळील नवीन पथदिवे आणि वाहतूक सिग्नल्समुळे आमच्या मुलांच्या सुरक्षिततेत खूप मोठा फरक पडला आहे. पाटील साहेबांच्या पुढाकारामुळे संध्याकाळी घरी येताना आम्हाला खूप सुरक्षित वाटते.",
+    pv_2_by: "— सुनीता देशमुख, गृहिणी",
+    pv_3: "आम्ही वर्षानुवर्षे अनियमित पाण्याच्या दाबाशी झुंजत होतो, पण किरण पाटील यांनी आमच्या पाइपलाइन अपग्रेड करण्याची खात्री केली. असा नेता असणे किती दिलासादायक आहे जो वृद्धांच्या मूलभूत गरजा खरोखर ऐकतो.",
+    pv_3_by: "— विनायक राव, निवृत्त शिक्षक",
+    pv_4: "आमच्या परिसरात व्यावसायिक दर्जाचं क्रीडांगण असेल असं मला कधीच वाटलं नव्हतं, पण श्री पाटील यांनी ते शक्य केलं. ते खरोखरच युवावर्गाला सक्षम करत आहेत, आमच्या स्वप्नांचा पाठलाग करण्यासाठी योग्य सुविधा देऊन.",
+    pv_4_by: "— समीर खान, स्थानिक फुटबॉलर",
+    pv_5: "माझ्या वडिलांच्या वैद्यकीय आणीबाणीच्या वेळी, किरण प्रकाश पाटील यांनी आयोजित केलेलं मोफत आरोग्य शिबिर जीव वाचवणारं ठरलं. गरीबांना आरोग्य सेवा देण्यासाठी त्यांची निष्ठा आमच्या समाजासाठी एक वरदान आहे.",
+    pv_5_by: "— अंजली गुप्ता, रहिवासी",
+    pv_6: "आमच्या आर्थिक परिस्थितीमुळे मुलाच्या भविष्याची काळजी वाटत होती, पण पाटील साहेबांनी आम्हाला शाळेत प्रवेश मिळवून दिला. ते केवळ भाषणे देत नाहीत; ते हे सुनिश्चित करतात की प्रत्येक मुलाला शिक्षणाची संधी मिळेल.",
+    pv_6_by: "— रमेश जाधव, रोजंदारी कामगार",
+    pv_7: "किरण पाटील यांनी आयोजित केलेले रक्तदान शिबिर नेहमीच अतिशय सुव्यवस्थित आणि प्रभावी असतात. असा नेता पाहणं स्फूर्तिदायक आहे जो नेहमीच मानवी जीवन आणि सेवेला सर्वोच्च प्राधान्य देतो.",
+    pv_7_by: "— डॉ. अमित शाह, स्वयंसेवक",
+    pv_8: "आमच्या बाजार परिसरातील वाहतूक कोंडी आणि ड्रेनेजच्या समस्या सोडवून, किरण प्रकाश पाटील यांनी स्थानिक व्यवसायांना भरभराट करण्यास मदत केली आहे. ते एक कृतिशील व्यक्ती आहेत जे आपल्या शहराची नाडी ओळखतात.",
+    pv_8_by: "— विक्रम सिंह, दुकानदार",
+
+    // Query / Contact
+    nav_query: "चौकशी",
+    query_title: "संपर्क साधा",
+    query_subtitle: "काही प्रश्न, चिंता किंवा मदत हवी आहे? आमच्याशी संपर्क साधा आणि आम्ही लवकरात लवकर उत्तर देऊ.",
+    query_form_title: "आम्हाला संदेश पाठवा",
+    query_name: "पूर्ण नाव",
+    query_name_ph: "तुमचे पूर्ण नाव टाका",
+    query_email: "ईमेल पत्ता",
+    query_email_ph: "तुमचा ईमेल टाका",
+    query_phone: "फोन नंबर",
+    query_phone_ph: "तुमचा फोन नंबर टाका",
+    query_subject: "विषय",
+    query_subject_ph: "हे कशाबद्दल आहे?",
+    query_message: "संदेश",
+    query_message_ph: "तुमचा संदेश येथे लिहा...",
+    query_send: "संदेश पाठवा",
+    query_sent: "संदेश पाठवला गेला! आम्ही लवकरच तुमच्याशी संपर्क करू.",
+    query_contact_title: "संपर्क माहिती",
+    query_address_label: "कार्यालयाचा पत्ता",
+    query_phone_label: "फोन",
+    query_email_label: "ईमेल",
+    query_follow: "आम्हाला फॉलो करा",
 
     // EventDetails
     event_back: "← कार्यक्रमांवर परत जा",

@@ -1,25 +1,24 @@
 import React, { useEffect, useState } from "react";
-import { FaQuoteLeft } from "react-icons/fa";
-import person1 from "../../assets/peoples/people1.png";
-import person2 from "../../assets/peoples/people1.png";
-import person3 from "../../assets/peoples/people1.png";
-import person4 from "../../assets/peoples/people1.png";
+import { FaQuoteLeft, FaUser } from "react-icons/fa";
 import { t } from "../../i18n/translations";
 import { useLang } from "../../contexts/LangContext";
 
-const images = [person1, person2, person3, person4];
-const messageKeys = ["pv_1", "pv_2", "pv_3", "pv_4"];
+const DEFAULT_KEYS = ["pv_1", "pv_2", "pv_3", "pv_4"];
 
-const PeopleVoice = () => {
+const PeopleVoice = ({ keys = DEFAULT_KEYS }) => {
   const [index, setIndex] = useState(0);
   useLang(); // subscribe to language changes
 
   useEffect(() => {
+    setIndex(0);
+  }, [keys]);
+
+  useEffect(() => {
     const interval = setInterval(() => {
-      setIndex((prev) => (prev + 1) % messageKeys.length);
+      setIndex((prev) => (prev + 1) % keys.length);
     }, 4000);
     return () => clearInterval(interval);
-  }, []);
+  }, [keys]);
 
   return (
     <div className="bg-[#F5F0E6] py-16 px-4 flex flex-col items-center transition-all duration-500">
@@ -29,18 +28,19 @@ const PeopleVoice = () => {
       </div>
 
       <div className="bg-[#ff4d00] text-white p-6 md:p-10 max-w-3xl min-h-[180px] rounded-[80px_0_80px_0] relative shadow-lg transition-all duration-500">
-        <p className="text-lg sm:text-xl font-medium leading-relaxed">
-          {t(messageKeys[index])}
+        <p className="text-lg sm:text-xl font-medium leading-relaxed mb-3">
+          {t(keys[index])}
         </p>
-        <img
-          src={images[index]}
-          alt="Person"
-          className="w-16 h-16 rounded-full object-cover absolute -bottom-6 right-6 border-4 border-white"
-        />
+        <p className="text-sm font-semibold opacity-80 italic">
+          {t(keys[index] + "_by")}
+        </p>
+        <div className="w-16 h-16 rounded-full bg-white flex items-center justify-center absolute -bottom-6 right-6 border-4 border-white shadow">
+          <FaUser className="text-[#ff4d00] text-2xl" />
+        </div>
       </div>
 
       <div className="mt-10 flex gap-2">
-        {messageKeys.map((_, i) => (
+        {keys.map((_, i) => (
           <span
             key={i}
             className={`w-3 h-3 rounded-full ${

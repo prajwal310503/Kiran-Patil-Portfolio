@@ -8,6 +8,7 @@ import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Gallery from "./pages/Gallery/Gallery";
 import Blogs from "./pages/Blogs/Blogs";
+import Query from "./pages/Query/Query";
 
 // Extra About pages
 import AboutNetra from "./components/About/AboutNetra";
@@ -41,6 +42,9 @@ const App = () => {
             {/* Extra About Pages */}
             <Route path="/about-netra" element={<AboutNetra />} />
             <Route path="/about-kiran" element={<AboutKiran />} />
+
+            {/* Query / Contact */}
+            <Route path="/query" element={<Query />} />
 
             {/* Gallery Category */}
             <Route path="/gallery/:id" element={<CategoryDetail />} />

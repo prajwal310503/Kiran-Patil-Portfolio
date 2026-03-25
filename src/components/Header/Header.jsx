@@ -25,6 +25,7 @@ const Header = () => {
           <Link to="/about" className="transition duration-200 hover:scale-105">{t("nav_about")}</Link>
           <Link to="/gallery" className="transition duration-200 hover:scale-105">{t("nav_gallery")}</Link>
           <Link to="/blogs" className="transition duration-200 hover:scale-105">{t("nav_events")}</Link>
+          <Link to="/query" className="transition duration-200 hover:scale-105">{t("nav_query")}</Link>
         </nav>
 
         {/* Actions */}
@@ -52,6 +53,7 @@ const Header = () => {
           <Link to="/about" onClick={() => setIsOpen(false)} className="block">{t("nav_about")}</Link>
           <Link to="/gallery" onClick={() => setIsOpen(false)} className="block">{t("nav_gallery")}</Link>
           <Link to="/blogs" onClick={() => setIsOpen(false)} className="block">{t("nav_events")}</Link>
+          <Link to="/query" onClick={() => setIsOpen(false)} className="block">{t("nav_query")}</Link>
 
           <div className="pt-4 flex flex-col gap-3">
             <LanguageSwitcher />
