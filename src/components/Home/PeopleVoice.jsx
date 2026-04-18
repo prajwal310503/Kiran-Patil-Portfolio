@@ -1,13 +1,19 @@
 import React, { useEffect, useState } from "react";
-import { FaQuoteLeft, FaUser } from "react-icons/fa";
+import { FaQuoteLeft } from "react-icons/fa";
+import people1 from "../../assets/peoples/people1.jpeg";
+import people2 from "../../assets/peoples/people2.jpeg";
+import people3 from "../../assets/peoples/people3.jpeg";
+import people4 from "../../assets/peoples/people4.jpeg";
 import { t } from "../../i18n/translations";
 import { useLang } from "../../contexts/LangContext";
+
+const ALL_IMAGES = [people1, people2, people3, people4];
 
 const DEFAULT_KEYS = ["pv_1", "pv_2", "pv_3", "pv_4"];
 
 const PeopleVoice = ({ keys = DEFAULT_KEYS }) => {
   const [index, setIndex] = useState(0);
-  useLang(); // subscribe to language changes
+  useLang();
 
   useEffect(() => {
     setIndex(0);
@@ -34,9 +40,11 @@ const PeopleVoice = ({ keys = DEFAULT_KEYS }) => {
         <p className="text-sm font-semibold opacity-80 italic">
           {t(keys[index] + "_by")}
         </p>
-        <div className="w-16 h-16 rounded-full bg-white flex items-center justify-center absolute -bottom-6 right-6 border-4 border-white shadow">
-          <FaUser className="text-[#ff4d00] text-2xl" />
-        </div>
+        <img
+          src={ALL_IMAGES[index % ALL_IMAGES.length]}
+          alt="Person"
+          className="w-24 h-24 rounded-full object-cover absolute -bottom-10 right-6 border-4 border-white shadow"
+        />
       </div>
 
       <div className="mt-10 flex gap-2">

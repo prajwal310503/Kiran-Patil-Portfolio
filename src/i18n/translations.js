@@ -93,21 +93,21 @@ const translations = {
     journey_year_label: "Year",
 
     // Kiran Journey entries
-    kj_2001_title: "Launched \"Shiksha Jyoti\"",
-    kj_2001_desc:
-      "Initiated a rural education campaign enrolling 10,000+ children into government schools. Focused on girl-child education and dropout recovery.",
-    kj_2002_title: "Digital Learning Pilot",
+    kj_2002_title: "Arrived in Mumbai",
     kj_2002_desc:
-      "Introduced basic digital literacy modules in 50 rural schools to enhance learning experiences.",
-    kj_2003_title: "Scholarship Drive",
+      "In May 2002, Kiran Prakash Patil arrived in Mumbai, marking the beginning of a new chapter dedicated to public service and community development.",
+    kj_2003_title: "Healthcare Career Begins",
     kj_2003_desc:
-      "Launched a nationwide scholarship program benefiting 5,000+ meritorious underprivileged students.",
-    kj_2004_title: "Teacher Training Program",
-    kj_2004_desc:
-      "Trained over 2,000 rural school teachers in modern pedagogical practices and student engagement.",
-    kj_2005_title: "Mobile Education Vans",
-    kj_2005_desc:
-      "Deployed education vans equipped with digital tools to reach remote tribal villages.",
+      "Started his career in the healthcare sector. In December 2003, joined ACTREC, Tata Memorial Centre as a Lab Technician — a role that deepened his commitment to serving the public.",
+    kj_2006_title: "SEO & NCP Leadership",
+    kj_2006_desc:
+      "From 2004–2014, actively served in the Nationalist Congress Party (NCP) as City General Secretary and City President (Youth Wing). In 2006, appointed as Special Executive Officer (SEO) by the Government of Maharashtra.",
+    kj_2012_title: "Founded Yuvaprerana Social Foundation",
+    kj_2012_desc:
+      "Established the Yuvaprerana Social Foundation in 2012, focused on youth development and social welfare, laying the groundwork for transformative community initiatives.",
+    kj_2014_title: "Joined BJP & Continued Service",
+    kj_2014_desc:
+      "Joined the Bharatiya Janata Party (BJP) in 2014. Served as Mandal General Secretary, Medical Project Coordinator, and Vice President in BJP Kharghar (2014–2024). Continues blood donation camps for cancer patients, runs Kharghar Sports Academy, and drives ongoing social service initiatives.",
 
     // Netra Journey entries
     nj_2010_title: "Youth Education Campaign",
@@ -151,13 +151,13 @@ const translations = {
     // People's Voice
     peoples_voice: "People's Voice",
     pv_1: "Thanks to Kiran Prakash Patil's persistence, our main roads are finally smooth and pothole-free. My daily commute is shorter and much safer now—his work speaks for itself!",
-    pv_1_by: "— Rajesh M., Local Resident",
+    pv_1_by: "— Swaminathan R",
     pv_2: "The new street lights and traffic signals near the school have made a world of difference for our children's safety. We feel much more secure walking home in the evenings thanks to Patil Saheb's initiative.",
-    pv_2_by: "— Sunita Deshmukh, Home Maker",
+    pv_2_by: "— Rotarian Shailesh Patel",
     pv_3: "We used to struggle with inconsistent water pressure for years, but Kiran Patil made sure our pipelines were upgraded. It's a relief to have a leader who actually listens to the basic needs of the elderly.",
-    pv_3_by: "— Vinayak Rao, Retired Teacher",
+    pv_3_by: "— Dr.Vaishali Agme",
     pv_4: "I never thought we'd have a professional-grade sports ground in our area, but Shri Patil made it happen. He is truly empowering the youth by giving us the right facilities to chase our dreams.",
-    pv_4_by: "— Sameer Khan, Local Footballer",
+    pv_4_by: "— Dr.Rakesh Somani",
     pv_5: "During my father's medical emergency, the free health camp organized by Kiran Prakash Patil was a lifesaver. His dedication to providing healthcare for the poor is a blessing to our community.",
     pv_5_by: "— Anjali Gupta, Resident",
     pv_6: "I was worried about my son's future because of our financial situation, but Patil Saheb helped us secure a school admission. He doesn't just give speeches; he ensures every child gets a chance to study.",
@@ -292,21 +292,21 @@ const translations = {
     journey_year_label: "वर्ष",
 
     // Kiran Journey
-    kj_2001_title: '"शिक्षा ज्योति" का शुभारंभ',
-    kj_2001_desc:
-      "10,000+ बच्चों को सरकारी स्कूलों में नामांकित कराने का ग्रामीण शिक्षा अभियान शुरू किया। बालिका शिक्षा और ड्रॉपआउट रिकवरी पर ध्यान केंद्रित किया।",
-    kj_2002_title: "डिजिटल लर्निंग पायलट",
+    kj_2002_title: "मुंबई आगमन",
     kj_2002_desc:
-      "50 ग्रामीण स्कूलों में बुनियादी डिजिटल साक्षरता मॉड्यूल पेश किए गए।",
-    kj_2003_title: "छात्रवृत्ति अभियान",
+      "मई 2002 में किरण प्रकाश पाटील मुंबई पहुँचे, जो सार्वजनिक सेवा और सामुदायिक विकास को समर्पित एक नए अध्याय की शुरुआत थी।",
+    kj_2003_title: "स्वास्थ्य क्षेत्र में करियर",
     kj_2003_desc:
-      "5,000+ मेधावी वंचित छात्रों को लाभ पहुँचाने वाला राष्ट्रव्यापी छात्रवृत्ति कार्यक्रम शुरू किया।",
-    kj_2004_title: "शिक्षक प्रशिक्षण कार्यक्रम",
-    kj_2004_desc:
-      "2,000+ ग्रामीण स्कूली शिक्षकों को आधुनिक शैक्षणिक तरीकों में प्रशिक्षित किया।",
-    kj_2005_title: "मोबाइल शिक्षा वैन",
-    kj_2005_desc:
-      "दूरदराज के आदिवासी गांवों तक पहुँचने के लिए डिजिटल उपकरणों से सुसज्जित शिक्षा वैन तैनात की गईं।",
+      "स्वास्थ्य क्षेत्र में कार्य प्रारंभ किया। दिसंबर 2003 में ACTREC, टाटा मेमोरियल सेंटर में लैब टेक्नीशियन के रूप में कार्यभार संभाला।",
+    kj_2006_title: "SEO नियुक्ति व NCP नेतृत्व",
+    kj_2006_desc:
+      "2004–2014 के बीच NCP में सक्रिय रहे — शहर महासचिव और युवक शहर अध्यक्ष के पद संभाले। 2006 में महाराष्ट्र सरकार द्वारा विशेष कार्यकारी अधिकारी (SEO) नियुक्त किए गए।",
+    kj_2012_title: "युवाप्रेरणा सामाजिक संस्था की स्थापना",
+    kj_2012_desc:
+      "2012 में युवाप्रेरणा सामाजिक संस्था की स्थापना की, जो युवा विकास और सामाजिक कल्याण पर केंद्रित है।",
+    kj_2014_title: "BJP में प्रवेश व निरंतर सेवा",
+    kj_2014_desc:
+      "2014 में भारतीय जनता पार्टी में शामिल हुए। BJP खारघर में मंडल महासचिव, मेडिकल प्रोजेक्ट संयोजक और उपाध्यक्ष के रूप में कार्य किया। कैंसर मरीजों के लिए रक्तदान शिविर, खारघर स्पोर्ट्स अकादमी और सामाजिक सेवा जारी है।",
 
     // Netra Journey
     nj_2010_title: "युवा शिक्षा अभियान",
@@ -491,21 +491,21 @@ const translations = {
     journey_year_label: "वर्ष",
 
     // Kiran Journey
-    kj_2001_title: '"शिक्षा ज्योती" चा शुभारंभ',
-    kj_2001_desc:
-      "10,000+ मुलांना सरकारी शाळांमध्ये नोंदणी करण्यासाठी ग्रामीण शिक्षण मोहीम सुरू केली. मुलींच्या शिक्षणावर आणि गळतीवर लक्ष केंद्रित केले.",
-    kj_2002_title: "डिजिटल लर्निंग पायलट",
+    kj_2002_title: "मुंबईत आगमन",
     kj_2002_desc:
-      "50 ग्रामीण शाळांमध्ये मूलभूत डिजिटल साक्षरता मॉड्यूल सादर केले.",
-    kj_2003_title: "शिष्यवृत्ती अभियान",
+      "मे २००२ मध्ये किरण प्रकाश पाटील मुंबईत आले, सार्वजनिक सेवा व सामुदायिक विकासाला समर्पित नव्या अध्यायाची सुरुवात झाली.",
+    kj_2003_title: "आरोग्य क्षेत्रात करिअर",
     kj_2003_desc:
-      "5,000+ गुणवंत वंचित विद्यार्थ्यांना लाभ देणारा राष्ट्रव्यापी शिष्यवृत्ती कार्यक्रम सुरू केला.",
-    kj_2004_title: "शिक्षक प्रशिक्षण कार्यक्रम",
-    kj_2004_desc:
-      "2,000+ ग्रामीण शाळेतील शिक्षकांना आधुनिक शैक्षणिक पद्धती आणि विद्यार्थी सहभागात प्रशिक्षण दिले.",
-    kj_2005_title: "मोबाइल शिक्षण वैन",
-    kj_2005_desc:
-      "दुर्गम आदिवासी गावांपर्यंत पोहोचण्यासाठी डिजिटल साधनांनी सज्ज शिक्षण वैन तैनात केल्या.",
+      "आरोग्य क्षेत्रात कार्यास सुरुवात केली. डिसेंबर २००३ मध्ये ACTREC, टाटा मेमोरियल सेंटर येथे लॅब टेक्निशियन म्हणून रुजू झाले.",
+    kj_2006_title: "SEO नियुक्ती व NCP नेतृत्व",
+    kj_2006_desc:
+      "२००४–२०१४ दरम्यान NCP मध्ये सक्रिय — शहर सरचिटणीस व युवक शहर अध्यक्ष पदे भूषविली. २००६ मध्ये महाराष्ट्र शासनाकडून विशेष कार्यकारी अधिकारी (SEO) म्हणून नियुक्ती.",
+    kj_2012_title: "युवाप्रेरणा सामाजिक संस्थेची स्थापना",
+    kj_2012_desc:
+      "२०१२ मध्ये युवाप्रेरणा सामाजिक संस्था स्थापन केली, जी युवा विकास व सामाजिक कल्याणावर केंद्रित आहे.",
+    kj_2014_title: "भाजपमध्ये प्रवेश व निरंतर सेवा",
+    kj_2014_desc:
+      "२०१४ मध्ये भारतीय जनता पक्षात प्रवेश केला. भाजप खारघरमध्ये मंडल सरचिटणीस, वैद्यकीय प्रकल्प संयोजक व उपाध्यक्ष म्हणून कार्य केले. कॅन्सर रुग्णांसाठी रक्तदान शिबिर, खारघर स्पोर्ट्स अकादमी व सामाजिक सेवा सुरूच आहे.",
 
     // Netra Journey
     nj_2010_title: "युवा शिक्षण मोहीम",

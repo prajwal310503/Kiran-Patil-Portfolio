@@ -1,25 +1,21 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import img2001 from "../../assets/Journey/journey-2001.png";
-import img2002 from "../../assets/Journey/journey-2001.png";
-import img2003 from "../../assets/Journey/journey-2001.png";
-import img2004 from "../../assets/Journey/journey-2001.png";
-import img2005 from "../../assets/Journey/journey-2001.png";
+import imgDefault from "../../assets/Journey/journey-2001.png";
 import { t } from "../../i18n/translations";
 import { useLang } from "../../contexts/LangContext";
 
 const journeyImages = {
-  2001: img2001,
-  2002: img2002,
-  2003: img2003,
-  2004: img2004,
-  2005: img2005,
+  2002: imgDefault,
+  2003: imgDefault,
+  2006: imgDefault,
+  2012: imgDefault,
+  2014: imgDefault,
 };
 
-const years = [2001, 2002, 2003, 2004, 2005];
+const years = [2002, 2003, 2006, 2012, 2014];
 
 const KiranJourney = () => {
-  const [year, setYear] = useState(2001);
+  const [year, setYear] = useState(2002);
   useLang(); // subscribe to language changes
 
   const goPrev = () => {
