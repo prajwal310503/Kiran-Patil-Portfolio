@@ -10,12 +10,13 @@ const journeyImages = {
   2006: imgDefault,
   2012: imgDefault,
   2014: imgDefault,
+  2024: imgDefault,
 };
 
-const years = [2002, 2003, 2006, 2012, 2014];
+const years = [2024, 2014, 2012, 2006, 2003, 2002];
 
 const KiranJourney = () => {
-  const [year, setYear] = useState(2002);
+  const [year, setYear] = useState(2024);
   useLang(); // subscribe to language changes
 
   const goPrev = () => {

@@ -107,7 +107,10 @@ const translations = {
       "Established the Yuvaprerana Social Foundation in 2012, focused on youth development and social welfare, laying the groundwork for transformative community initiatives.",
     kj_2014_title: "Joined BJP & Continued Service",
     kj_2014_desc:
-      "Joined the Bharatiya Janata Party (BJP) in 2014. Served as Mandal General Secretary, Medical Project Coordinator, and Vice President in BJP Kharghar (2014–2024). Continues blood donation camps for cancer patients, runs Kharghar Sports Academy, and drives ongoing social service initiatives.",
+      "Joined the Bharatiya Janata Party (BJP) in 2014. Served as Mandal General Secretary, Medical Project Coordinator, and Vice President in BJP Kharghar (2014–2024). A decade of dedicated grassroots work across Kharghar.",
+    kj_2024_title: "Ongoing Work (2024 – Present)",
+    kj_2024_desc:
+      "Continuing tireless service to the people of Kharghar: organising blood donation camps for cancer patients at Tata Memorial Centre, running the Kharghar Sports Academy for youth development, and driving continuous social service initiatives across health, education, and community welfare.",
 
     // Netra Journey entries
     nj_2010_title: "Youth Education Campaign",
@@ -306,7 +309,10 @@ const translations = {
       "2012 में युवाप्रेरणा सामाजिक संस्था की स्थापना की, जो युवा विकास और सामाजिक कल्याण पर केंद्रित है।",
     kj_2014_title: "BJP में प्रवेश व निरंतर सेवा",
     kj_2014_desc:
-      "2014 में भारतीय जनता पार्टी में शामिल हुए। BJP खारघर में मंडल महासचिव, मेडिकल प्रोजेक्ट संयोजक और उपाध्यक्ष के रूप में कार्य किया। कैंसर मरीजों के लिए रक्तदान शिविर, खारघर स्पोर्ट्स अकादमी और सामाजिक सेवा जारी है।",
+      "2014 में भारतीय जनता पार्टी में शामिल हुए। BJP खारघर में मंडल महासचिव, मेडिकल प्रोजेक्ट संयोजक और उपाध्यक्ष के रूप में कार्य किया। खारघर में एक दशक की समर्पित जमीनी सेवा।",
+    kj_2024_title: "निरंतर कार्य (2024 – वर्तमान)",
+    kj_2024_desc:
+      "खारघर की जनता की अटूट सेवा जारी है: टाटा मेमोरियल सेंटर के कैंसर मरीजों के लिए रक्तदान शिविर, युवा विकास के लिए खारघर स्पोर्ट्स अकादमी का संचालन, और स्वास्थ्य, शिक्षा व सामुदायिक कल्याण में निरंतर सामाजिक सेवा।",
 
     // Netra Journey
     nj_2010_title: "युवा शिक्षा अभियान",
@@ -505,7 +511,10 @@ const translations = {
       "२०१२ मध्ये युवाप्रेरणा सामाजिक संस्था स्थापन केली, जी युवा विकास व सामाजिक कल्याणावर केंद्रित आहे.",
     kj_2014_title: "भाजपमध्ये प्रवेश व निरंतर सेवा",
     kj_2014_desc:
-      "२०१४ मध्ये भारतीय जनता पक्षात प्रवेश केला. भाजप खारघरमध्ये मंडल सरचिटणीस, वैद्यकीय प्रकल्प संयोजक व उपाध्यक्ष म्हणून कार्य केले. कॅन्सर रुग्णांसाठी रक्तदान शिबिर, खारघर स्पोर्ट्स अकादमी व सामाजिक सेवा सुरूच आहे.",
+      "२०१४ मध्ये भारतीय जनता पक्षात प्रवेश केला. भाजप खारघरमध्ये मंडल सरचिटणीस, वैद्यकीय प्रकल्प संयोजक व उपाध्यक्ष म्हणून कार्य केले. खारघरमध्ये एक दशकाची समर्पित जमिनीवरील सेवा.",
+    kj_2024_title: "निरंतर कार्य (२०२४ – सध्या)",
+    kj_2024_desc:
+      "खारघरच्या जनतेची अविरत सेवा सुरू आहे: टाटा मेमोरियल सेंटरच्या कॅन्सर रुग्णांसाठी रक्तदान शिबिर, युवा विकासासाठी खारघर स्पोर्ट्स अकादमीचे संचालन, आणि आरोग्य, शिक्षण व सामुदायिक कल्याणात निरंतर सामाजिक सेवा.",
 
     // Netra Journey
     nj_2010_title: "युवा शिक्षण मोहीम",
