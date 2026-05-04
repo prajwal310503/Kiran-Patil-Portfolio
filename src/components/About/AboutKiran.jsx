@@ -93,15 +93,15 @@ const AboutKiran = () => {
       </div>
 
       <div className="px-6 sm:px-10 py-10 max-w-4xl mx-auto">
-        <h1 className="text-2xl sm:text-4xl md:text-5xl font-bold mb-10 text-center">{t("kiran_title")}</h1>
+        <h1 className="text-3xl sm:text-5xl font-bold mb-10 text-center">{t("kiran_title")}</h1>
 
-        <h2 className="text-xl sm:text-2xl font-bold mb-4 text-[#ff4d00]">{t("kiran_s1_h")}</h2>
-        <p className="mb-5 text-base sm:text-lg md:text-xl text-gray-700 dark:text-gray-300 leading-relaxed">{t("kiran_s1_p1")}</p>
-        <p className="mb-10 text-base sm:text-lg md:text-xl text-gray-700 dark:text-gray-300 leading-relaxed">{t("kiran_s1_p2")}</p>
+        <h2 className="text-2xl font-bold mb-4 text-[#ff4d00]">{t("kiran_s1_h")}</h2>
+        <p className="mb-5 text-lg sm:text-xl text-gray-700 dark:text-gray-300 leading-relaxed">{t("kiran_s1_p1")}</p>
+        <p className="mb-10 text-lg sm:text-xl text-gray-700 dark:text-gray-300 leading-relaxed">{t("kiran_s1_p2")}</p>
 
-        <h2 className="text-xl sm:text-2xl font-bold mb-4 text-[#ff4d00]">{t("kiran_s2_h")}</h2>
-        <p className="mb-4 text-base sm:text-lg md:text-xl text-gray-700 dark:text-gray-300 leading-relaxed">{t("kiran_s2_intro")}</p>
-        <ul className="mb-10 space-y-4 text-base sm:text-lg md:text-xl text-gray-700 dark:text-gray-300">
+        <h2 className="text-2xl font-bold mb-4 text-[#ff4d00]">{t("kiran_s2_h")}</h2>
+        <p className="mb-4 text-lg sm:text-xl text-gray-700 dark:text-gray-300 leading-relaxed">{t("kiran_s2_intro")}</p>
+        <ul className="mb-10 space-y-4 text-lg sm:text-xl text-gray-700 dark:text-gray-300">
           {[["kiran_s2_b1_l", "kiran_s2_b1_t"], ["kiran_s2_b2_l", "kiran_s2_b2_t"], ["kiran_s2_b3_l", "kiran_s2_b3_t"]].map(([l, tx]) => (
             <li key={l} className="flex gap-3">
               <span className="text-[#ff4d00] font-bold shrink-0 mt-1">●</span>
@@ -110,11 +110,11 @@ const AboutKiran = () => {
           ))}
         </ul>
 
-        <h2 className="text-xl sm:text-2xl font-bold mb-4 text-[#ff4d00]">{t("kiran_s3_h")}</h2>
-        <p className="mb-10 text-base sm:text-lg md:text-xl text-gray-700 dark:text-gray-300 leading-relaxed">{t("kiran_s3_p1")}</p>
+        <h2 className="text-2xl font-bold mb-4 text-[#ff4d00]">{t("kiran_s3_h")}</h2>
+        <p className="mb-10 text-lg sm:text-xl text-gray-700 dark:text-gray-300 leading-relaxed">{t("kiran_s3_p1")}</p>
 
-        <h2 className="text-xl sm:text-2xl font-bold mb-4 text-[#ff4d00]">{t("kiran_s4_h")}</h2>
-        <ul className="mb-10 space-y-4 text-base sm:text-lg md:text-xl text-gray-700 dark:text-gray-300">
+        <h2 className="text-2xl font-bold mb-4 text-[#ff4d00]">{t("kiran_s4_h")}</h2>
+        <ul className="mb-10 space-y-4 text-lg sm:text-xl text-gray-700 dark:text-gray-300">
           {[["kiran_s4_b1_l", "kiran_s4_b1_t"], ["kiran_s4_b2_l", "kiran_s4_b2_t"], ["kiran_s4_b3_l", "kiran_s4_b3_t"]].map(([l, tx]) => (
             <li key={l} className="flex gap-3">
               <span className="text-[#ff4d00] font-bold shrink-0 mt-1">●</span>
@@ -123,9 +123,9 @@ const AboutKiran = () => {
           ))}
         </ul>
 
-        <h2 className="text-xl sm:text-2xl font-bold mb-4 text-[#ff4d00]">{t("kiran_s5_h")}</h2>
-        <p className="mb-4 text-base sm:text-lg md:text-xl text-gray-700 dark:text-gray-300 leading-relaxed">{t("kiran_s5_p1")}</p>
-        <ul className="mb-8 space-y-4 text-base sm:text-lg md:text-xl text-gray-700 dark:text-gray-300">
+        <h2 className="text-2xl font-bold mb-4 text-[#ff4d00]">{t("kiran_s5_h")}</h2>
+        <p className="mb-4 text-lg sm:text-xl text-gray-700 dark:text-gray-300 leading-relaxed">{t("kiran_s5_p1")}</p>
+        <ul className="mb-8 space-y-4 text-lg sm:text-xl text-gray-700 dark:text-gray-300">
           {[["kiran_s5_b1_l", "kiran_s5_b1_t"], ["kiran_s5_b2_l", "kiran_s5_b2_t"]].map(([l, tx]) => (
             <li key={l} className="flex gap-3">
               <span className="text-[#ff4d00] font-bold shrink-0 mt-1">●</span>
@@ -145,8 +145,8 @@ const AboutKiran = () => {
 
       {/* Mission Section */}
       <div className="py-12 sm:py-20 text-center px-4 sm:px-6">
-        <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold mb-8">{t("mission_heading")}</h2>
-        <p className="mb-10 sm:mb-14 text-base sm:text-lg md:text-xl text-gray-700 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
+        <h2 className="text-3xl sm:text-4xl font-extrabold mb-8">{t("mission_heading")}</h2>
+        <p className="mb-10 sm:mb-14 text-lg sm:text-xl text-gray-700 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
           {t("mission_sub")}
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-y-10 sm:gap-x-10 items-center justify-items-center">

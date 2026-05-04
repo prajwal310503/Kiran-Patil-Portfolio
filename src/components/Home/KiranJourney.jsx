@@ -38,7 +38,7 @@ const KiranJourney = () => {
 
   return (
     <div className="px-4 py-12 bg-white dark:bg-black text-center font-sans transition-colors duration-500">
-      <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-10 text-black dark:text-white">{t("journey_heading")}</h2>
+      <h2 className="text-3xl sm:text-4xl font-bold mb-10 text-black dark:text-white">{t("journey_heading")}</h2>
 
       <div className="flex justify-center items-center gap-2 sm:gap-4 mb-10">
         <button
@@ -108,10 +108,10 @@ const KiranJourney = () => {
             className="w-full md:w-1/2 rounded-xl shadow-lg object-cover"
           />
           <div className="text-left max-w-md">
-            <h3 className="text-xl sm:text-2xl md:text-3xl font-bold mb-3 text-black dark:text-white">
+            <h3 className="text-2xl sm:text-3xl font-bold mb-3 text-black dark:text-white">
               {t(titleKey)}
             </h3>
-            <p className="text-base sm:text-lg md:text-xl text-gray-700 dark:text-gray-300 leading-relaxed mb-3">
+            <p className="text-lg sm:text-xl text-gray-700 dark:text-gray-300 leading-relaxed mb-3">
               {t(descKey)}
             </p>
             <p className="italic text-base text-gray-500 dark:text-gray-400 font-[Orbitron]">

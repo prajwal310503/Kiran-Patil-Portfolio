@@ -40,15 +40,15 @@ const Query = () => {
 
       {/* Hero Banner */}
       <div className="bg-[#ff4d00] py-10 sm:py-14 px-4 sm:px-6 text-white text-center">
-        <h1 className="text-2xl sm:text-4xl md:text-5xl font-extrabold mb-3">{t("query_title")}</h1>
-        <p className="text-base sm:text-lg md:text-xl max-w-2xl mx-auto opacity-90">{t("query_subtitle")}</p>
+        <h1 className="text-3xl sm:text-5xl font-extrabold mb-3">{t("query_title")}</h1>
+        <p className="text-lg sm:text-xl max-w-2xl mx-auto opacity-90">{t("query_subtitle")}</p>
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-10 sm:py-14 grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12">
 
         {/* LEFT — Contact Details */}
         <div className="space-y-8">
-          <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-[#ff4d00]">{t("query_contact_title")}</h2>
+          <h2 className="text-2xl sm:text-3xl font-bold text-[#ff4d00]">{t("query_contact_title")}</h2>
 
           {/* Address */}
           <div className="flex gap-4 items-start">
@@ -145,7 +145,7 @@ const Query = () => {
 
         {/* RIGHT — Contact Form */}
         <div>
-          <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-[#ff4d00] mb-8">{t("query_form_title")}</h2>
+          <h2 className="text-2xl sm:text-3xl font-bold text-[#ff4d00] mb-8">{t("query_form_title")}</h2>
 
           {submitted ? (
             <div className="flex flex-col items-center justify-center py-20 text-center gap-4">

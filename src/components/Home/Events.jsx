@@ -38,7 +38,7 @@ const Events = () => {
 
   return (
     <section className="py-16 px-6 bg-white text-black dark:bg-black dark:text-white text-center transition-colors duration-500">
-      <h2 className="text-2xl sm:text-3xl md:text-[42px] font-bold mb-10 leading-tight">{t("events_heading")}</h2>
+      <h2 className="text-3xl sm:text-[42px] font-bold mb-10 leading-tight">{t("events_heading")}</h2>
 
       <div className="mx-auto max-w-[1100px] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 px-4">
         {events.map((event) => (
