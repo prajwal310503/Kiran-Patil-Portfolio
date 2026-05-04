@@ -20,7 +20,7 @@ const CategoryDetail = ({ category, onBack }) => {
           ← Back
         </button>
         <h2 className="text-3xl md:text-4xl font-bold mb-4">{category.name || category.title}</h2>
-        <div className="max-w-4xl text-base md:text-lg space-y-4">
+        <div className="max-w-4xl text-lg sm:text-xl space-y-4">
           {(category.description || `Galleries for ${category.name || category.title}`)
             .split(/\n+/)
             .filter((p) => p.trim())

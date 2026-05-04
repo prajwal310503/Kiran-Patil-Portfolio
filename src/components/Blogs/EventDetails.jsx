@@ -79,7 +79,7 @@ const EventDetails = ({ event, onClose }) => {
         {(fullEvent?.description || event.description) && (
           <div
             dangerouslySetInnerHTML={{ __html: fullEvent?.description || event.description }}
-            className="max-w-4xl text-center text-sm sm:text-base font-light leading-relaxed mt-4 mb-2 [&_p]:mb-5 [&_p]:leading-relaxed [&_h2]:text-lg [&_h2]:font-bold [&_h2]:mb-3 [&_h2]:mt-4 [&_ol]:list-decimal [&_ol]:pl-5 [&_ol]:text-left [&_ol]:mb-4 [&_ul]:list-disc [&_ul]:pl-5 [&_ul]:text-left [&_ul]:mb-4"
+            className="max-w-4xl text-center text-lg sm:text-xl font-light leading-relaxed mt-4 mb-2 [&_p]:mb-5 [&_p]:leading-relaxed [&_h2]:text-xl [&_h2]:font-bold [&_h2]:mb-3 [&_h2]:mt-4 [&_ol]:list-decimal [&_ol]:pl-5 [&_ol]:text-left [&_ol]:mb-4 [&_ul]:list-disc [&_ul]:pl-5 [&_ul]:text-left [&_ul]:mb-4"
           />
         )}
       </header>

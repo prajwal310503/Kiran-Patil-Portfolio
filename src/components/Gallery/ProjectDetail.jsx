@@ -156,7 +156,7 @@ const ProjectDetail = ({ project, onBack }) => {
       {/* Description */}
       {gallery?.description && (
         <div
-          className="max-w-3xl mx-auto text-gray-700 dark:text-gray-300 leading-relaxed text-sm sm:text-base space-y-4 [&_p]:mb-4"
+          className="max-w-3xl mx-auto text-gray-700 dark:text-gray-300 leading-relaxed text-lg sm:text-xl space-y-4 [&_p]:mb-4"
           dangerouslySetInnerHTML={{ __html: gallery.description }}
         />
       )}
