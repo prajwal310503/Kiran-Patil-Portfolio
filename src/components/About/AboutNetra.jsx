@@ -91,14 +91,14 @@ const AboutNetra = () => {
         </div>
       </div>
 
-      <div className="px-6 sm:px-10 py-10 max-w-4xl mx-auto">
-        <h1 className="text-4xl sm:text-5xl font-bold mb-10 text-center">{t("netra_title")}</h1>
+      <div className="px-4 sm:px-6 md:px-10 py-10 max-w-4xl mx-auto">
+        <h1 className="text-2xl sm:text-4xl md:text-5xl font-bold mb-10 text-center">{t("netra_title")}</h1>
 
-        <p className="mb-5 text-lg sm:text-xl text-gray-700 dark:text-gray-300 leading-relaxed">{t("netra_s1_p1")}</p>
-        <p className="mb-10 text-lg sm:text-xl text-gray-700 dark:text-gray-300 leading-relaxed">{t("netra_s1_p2")}</p>
+        <p className="mb-5 text-base sm:text-lg md:text-xl text-gray-700 dark:text-gray-300 leading-relaxed">{t("netra_s1_p1")}</p>
+        <p className="mb-10 text-base sm:text-lg md:text-xl text-gray-700 dark:text-gray-300 leading-relaxed">{t("netra_s1_p2")}</p>
 
-        <h2 className="text-2xl font-bold mb-4 text-[#ff4d00]">{t("netra_s2_h")}</h2>
-        <ul className="mb-10 space-y-4 text-lg sm:text-xl text-gray-700 dark:text-gray-300">
+        <h2 className="text-xl sm:text-2xl font-bold mb-4 text-[#ff4d00]">{t("netra_s2_h")}</h2>
+        <ul className="mb-10 space-y-4 text-base sm:text-lg md:text-xl text-gray-700 dark:text-gray-300">
           {[["netra_s2_b1_l", "netra_s2_b1_t"], ["netra_s2_b2_l", "netra_s2_b2_t"], ["netra_s2_b3_l", "netra_s2_b3_t"]].map(([l, tx]) => (
             <li key={l} className="flex gap-3">
               <span className="text-[#ff4d00] font-bold shrink-0 mt-1">●</span>
@@ -107,8 +107,8 @@ const AboutNetra = () => {
           ))}
         </ul>
 
-        <h2 className="text-2xl font-bold mb-4 text-[#ff4d00]">{t("netra_s3_h")}</h2>
-        <ul className="mb-10 space-y-4 text-lg sm:text-xl text-gray-700 dark:text-gray-300">
+        <h2 className="text-xl sm:text-2xl font-bold mb-4 text-[#ff4d00]">{t("netra_s3_h")}</h2>
+        <ul className="mb-10 space-y-4 text-base sm:text-lg md:text-xl text-gray-700 dark:text-gray-300">
           {[["netra_s3_b1_l", "netra_s3_b1_t"], ["netra_s3_b2_l", "netra_s3_b2_t"], ["netra_s3_b3_l", "netra_s3_b3_t"]].map(([l, tx]) => (
             <li key={l} className="flex gap-3">
               <span className="text-[#ff4d00] font-bold shrink-0 mt-1">●</span>
@@ -117,31 +117,31 @@ const AboutNetra = () => {
           ))}
         </ul>
 
-        <p className="mb-12 text-lg sm:text-xl text-gray-700 dark:text-gray-300 leading-relaxed">{t("netra_s4_p")}</p>
+        <p className="mb-12 text-base sm:text-lg md:text-xl text-gray-700 dark:text-gray-300 leading-relaxed">{t("netra_s4_p")}</p>
 
         <NetraJourney />
       </div>
 
-      <PeopleVoice keys={["pv_5", "pv_6", "pv_7", "pv_8"]} />
+      <PeopleVoice keys={["pv_5", "pv_6", "pv_7", "pv_8"]} showImage={false} />
 
       {/* Mission Section */}
-      <div className="py-20 text-center px-6">
-        <h2 className="text-4xl font-extrabold mb-8">{t("mission_heading")}</h2>
-        <p className="mb-14 text-lg sm:text-xl text-gray-700 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
+      <div className="py-12 sm:py-20 text-center px-4 sm:px-6">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold mb-8">{t("mission_heading")}</h2>
+        <p className="mb-10 sm:mb-14 text-base sm:text-lg md:text-xl text-gray-700 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
           {t("mission_sub")}
         </p>
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-y-16 sm:gap-x-30 items-center justify-items-center">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-y-10 sm:gap-x-10 items-center justify-items-center">
           <div className="flex flex-col items-center">
-            <img src={educationIcon} alt="Education" className="w-42 h-42 mb-6" />
-            <p className="text-lg font-semibold">{t("mission_education")}</p>
+            <img src={educationIcon} alt="Education" className="w-28 h-28 sm:w-36 sm:h-36 md:w-42 md:h-42 mb-6" />
+            <p className="text-base sm:text-lg font-semibold">{t("mission_education")}</p>
           </div>
           <div className="flex flex-col items-center">
-            <img src={sustainableIcon} alt="Sustainable" className="w-42 h-42 mb-6" />
-            <p className="text-lg font-semibold">{t("mission_sustainable")}</p>
+            <img src={sustainableIcon} alt="Sustainable" className="w-28 h-28 sm:w-36 sm:h-36 md:w-42 md:h-42 mb-6" />
+            <p className="text-base sm:text-lg font-semibold">{t("mission_sustainable")}</p>
           </div>
           <div className="flex flex-col items-center">
-            <img src={digitalIcon} alt="Digital India" className="w-42 h-42 mb-6" />
-            <p className="text-lg font-semibold">{t("mission_digital")}</p>
+            <img src={digitalIcon} alt="Digital India" className="w-28 h-28 sm:w-36 sm:h-36 md:w-42 md:h-42 mb-6" />
+            <p className="text-base sm:text-lg font-semibold">{t("mission_digital")}</p>
           </div>
         </div>
       </div>

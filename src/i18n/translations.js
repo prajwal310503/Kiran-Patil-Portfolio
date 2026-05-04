@@ -95,22 +95,34 @@ const translations = {
     // Kiran Journey entries
     kj_2002_title: "Arrived in Mumbai",
     kj_2002_desc:
-      "In May 2002, Kiran Prakash Patil arrived in Mumbai, marking the beginning of a new chapter dedicated to public service and community development.",
-    kj_2003_title: "Healthcare Career Begins",
-    kj_2003_desc:
-      "Started his career in the healthcare sector. In December 2003, joined ACTREC, Tata Memorial Centre as a Lab Technician — a role that deepened his commitment to serving the public.",
-    kj_2006_title: "SEO & NCP Leadership",
-    kj_2006_desc:
-      "From 2004–2014, actively served in the Nationalist Congress Party (NCP) as City General Secretary and City President (Youth Wing). In 2006, appointed as Special Executive Officer (SEO) by the Government of Maharashtra.",
-    kj_2012_title: "Founded Yuvaprerana Social Foundation",
+      "After arriving in Mumbai in 2002 in search of work, started the first job at Mehta Pathology Lab, Grand Road. While working there, continued seeking better opportunities and secured a position as Lab Technician at ISKCON's Bhaktivedanta Hospital, Mira Road.",
+    kj_2004_title: "Joined Nationalist Congress Party",
+    kj_2004_desc:
+      "From June 2004, began working as an active member of the Nationalist Congress Party (NCP), taking the first formal steps into political and public service.",
+    kj_2005_title: "NCP Youth General Secretary",
+    kj_2005_desc:
+      "From May 2005, took on the responsibility of General Secretary of the Nationalist Youth Congress, Kharghar City — leading youth-focused initiatives and community programmes.",
+    kj_2009_title: "NCP Youth City President",
+    kj_2009_desc:
+      "From 2009, served as President of the Nationalist Youth Congress, Kharghar City, spearheading youth mobilisation and grassroots development activities.",
+    kj_2012_title: "Founded Yuvaprerana & Sports Academy",
     kj_2012_desc:
-      "Established the Yuvaprerana Social Foundation in 2012, focused on youth development and social welfare, laying the groundwork for transformative community initiatives.",
-    kj_2014_title: "Joined BJP & Continued Service",
+      "In 2012, established Yuvaprerana Social Organization to unite youth and promote social responsibility. In the same year, founded Kharghar Sports Academy to provide sports training and nurture young talent. Through Yuvaprerana, blood donation camps are organised 2–3 times a year for cancer patients at Tata Cancer Hospital.",
+    kj_2014_title: "Joined BJP & Kharghar Colony Forum",
     kj_2014_desc:
-      "Joined the Bharatiya Janata Party (BJP) in 2014. Served as Mandal General Secretary, Medical Project Coordinator, and Vice President in BJP Kharghar (2014–2024). A decade of dedicated grassroots work across Kharghar.",
-    kj_2024_title: "Ongoing Work (2024 – Present)",
-    kj_2024_desc:
-      "Continuing tireless service to the people of Kharghar: organising blood donation camps for cancer patients at Tata Memorial Centre, running the Kharghar Sports Academy for youth development, and driving continuous social service initiatives across health, education, and community welfare.",
+      "In 2014, established the Kharghar Colony Forum. Through this platform, Mrs. Netra Kiran Patil contested the Kharghar Gram Panchayat member election. In October 2014, joined the Bharatiya Janata Party (BJP) and continued active service.",
+    kj_2015_title: "BJP Mandal General Secretary (2015–2018)",
+    kj_2015_desc:
+      "From 2015 to 2018, served as General Secretary of BJP Kharghar Mandal, strengthening party organisation and community outreach at the grassroots level.",
+    kj_2018_title: "BJP Medical Cell Coordinator (2018–2021)",
+    kj_2018_desc:
+      "From 2018 to 2021, served as Medical Cell Coordinator of BJP Kharghar Mandal, organising health camps, blood donation drives, and medical support initiatives for the community.",
+    kj_2021_title: "BJP Mandal Vice President (2021–2024)",
+    kj_2021_desc:
+      "From 2021 to 2024, served as Vice President of BJP Kharghar Mandal, overseeing broader organisational responsibilities and continuing dedicated service to the people of Kharghar.",
+    kj_2025_title: "Resigned from BJP (December 2025)",
+    kj_2025_desc:
+      "In December 2025, resigned from the membership of the Bharatiya Janata Party, marking the end of a significant chapter and the beginning of a new phase of independent public service.",
 
     // Netra Journey entries
     nj_2010_title: "Youth Education Campaign",
@@ -297,22 +309,34 @@ const translations = {
     // Kiran Journey
     kj_2002_title: "मुंबई आगमन",
     kj_2002_desc:
-      "मई 2002 में किरण प्रकाश पाटील मुंबई पहुँचे, जो सार्वजनिक सेवा और सामुदायिक विकास को समर्पित एक नए अध्याय की शुरुआत थी।",
-    kj_2003_title: "स्वास्थ्य क्षेत्र में करियर",
-    kj_2003_desc:
-      "स्वास्थ्य क्षेत्र में कार्य प्रारंभ किया। दिसंबर 2003 में ACTREC, टाटा मेमोरियल सेंटर में लैब टेक्नीशियन के रूप में कार्यभार संभाला।",
-    kj_2006_title: "SEO नियुक्ति व NCP नेतृत्व",
-    kj_2006_desc:
-      "2004–2014 के बीच NCP में सक्रिय रहे — शहर महासचिव और युवक शहर अध्यक्ष के पद संभाले। 2006 में महाराष्ट्र सरकार द्वारा विशेष कार्यकारी अधिकारी (SEO) नियुक्त किए गए।",
-    kj_2012_title: "युवाप्रेरणा सामाजिक संस्था की स्थापना",
+      "2002 में मुंबई आने के बाद नौकरी की तलाश में मेहता पैथोलॉजी लैब, ग्रांट रोड में पहली नौकरी शुरू की। वहाँ काम करते हुए बेहतर अवसरों की तलाश जारी रही और इस्कॉन के भक्तिवेदांत हॉस्पिटल, मीरा रोड में लैब टेक्नीशियन की नौकरी मिली।",
+    kj_2004_title: "राष्ट्रवादी कांग्रेस पार्टी में प्रवेश",
+    kj_2004_desc:
+      "जून 2004 से राष्ट्रवादी कांग्रेस पार्टी (NCP) में सक्रिय सदस्य के रूप में कार्य शुरू किया और सार्वजनिक सेवा की दिशा में पहला औपचारिक कदम उठाया।",
+    kj_2005_title: "NCP युवक महासचिव",
+    kj_2005_desc:
+      "मई 2005 से राष्ट्रवादी युवक कांग्रेस, खारघर शहर के महासचिव (सरचिटणीस) के रूप में जिम्मेदारी संभाली — युवा केंद्रित पहलों और सामुदायिक कार्यक्रमों का नेतृत्व किया।",
+    kj_2009_title: "NCP युवक शहर अध्यक्ष",
+    kj_2009_desc:
+      "2009 से राष्ट्रवादी युवक कांग्रेस, खारघर शहर के अध्यक्ष के रूप में कार्य किया — युवाओं को एकजुट करने और जमीनी विकास गतिविधियों का नेतृत्व किया।",
+    kj_2012_title: "युवाप्रेरणा व स्पोर्ट्स अकादमी की स्थापना",
     kj_2012_desc:
-      "2012 में युवाप्रेरणा सामाजिक संस्था की स्थापना की, जो युवा विकास और सामाजिक कल्याण पर केंद्रित है।",
-    kj_2014_title: "BJP में प्रवेश व निरंतर सेवा",
+      "2012 में युवाप्रेरणा सामाजिक संस्था की स्थापना की — युवाओं को एकजुट करने और सामाजिक जिम्मेदारी को बढ़ावा देने के लिए। इसी वर्ष खारघर स्पोर्ट्स अकादमी की स्थापना की गई। युवाप्रेरणा के माध्यम से वर्ष में 2–3 बार टाटा कैंसर हॉस्पिटल के मरीजों के लिए रक्तदान शिविर आयोजित किए जाते हैं।",
+    kj_2014_title: "BJP में प्रवेश व खारघर कॉलोनी फोरम",
     kj_2014_desc:
-      "2014 में भारतीय जनता पार्टी में शामिल हुए। BJP खारघर में मंडल महासचिव, मेडिकल प्रोजेक्ट संयोजक और उपाध्यक्ष के रूप में कार्य किया। खारघर में एक दशक की समर्पित जमीनी सेवा।",
-    kj_2024_title: "निरंतर कार्य (2024 – वर्तमान)",
-    kj_2024_desc:
-      "खारघर की जनता की अटूट सेवा जारी है: टाटा मेमोरियल सेंटर के कैंसर मरीजों के लिए रक्तदान शिविर, युवा विकास के लिए खारघर स्पोर्ट्स अकादमी का संचालन, और स्वास्थ्य, शिक्षा व सामुदायिक कल्याण में निरंतर सामाजिक सेवा।",
+      "2014 में खारघर कॉलोनी फोरम की स्थापना की। इस मंच के माध्यम से श्रीमती नेत्रा किरण पाटील ने ग्राम पंचायत चुनाव में भाग लिया। अक्टूबर 2014 में भारतीय जनता पार्टी में प्रवेश किया और सक्रिय सदस्य के रूप में कार्य जारी रखा।",
+    kj_2015_title: "BJP मंडल महासचिव (2015–2018)",
+    kj_2015_desc:
+      "2015 से 2018 तक BJP खारघर मंडल के महासचिव (सरचिटणीस) के रूप में कार्य किया — पार्टी संगठन और जमीनी स्तर पर सामुदायिक संपर्क को मजबूत किया।",
+    kj_2018_title: "BJP मेडिकल सेल संयोजक (2018–2021)",
+    kj_2018_desc:
+      "2018 से 2021 तक BJP खारघर मंडल के मेडिकल सेल संयोजक के रूप में कार्य किया — स्वास्थ्य शिविर, रक्तदान अभियान और चिकित्सा सहायता कार्यक्रमों का आयोजन किया।",
+    kj_2021_title: "BJP मंडल उपाध्यक्ष (2021–2024)",
+    kj_2021_desc:
+      "2021 से 2024 तक BJP खारघर मंडल के उपाध्यक्ष के रूप में कार्य किया — व्यापक संगठनात्मक जिम्मेदारियाँ संभालीं और खारघर की जनता की सेवा जारी रखी।",
+    kj_2025_title: "BJP से इस्तीफा (दिसंबर 2025)",
+    kj_2025_desc:
+      "दिसंबर 2025 में भारतीय जनता पार्टी की सदस्यता से इस्तीफा दे दिया — एक महत्वपूर्ण अध्याय के समापन और स्वतंत्र सार्वजनिक सेवा के नए दौर की शुरुआत।",
 
     // Netra Journey
     nj_2010_title: "युवा शिक्षा अभियान",
@@ -499,22 +523,34 @@ const translations = {
     // Kiran Journey
     kj_2002_title: "मुंबईत आगमन",
     kj_2002_desc:
-      "मे २००२ मध्ये किरण प्रकाश पाटील मुंबईत आले, सार्वजनिक सेवा व सामुदायिक विकासाला समर्पित नव्या अध्यायाची सुरुवात झाली.",
-    kj_2003_title: "आरोग्य क्षेत्रात करिअर",
-    kj_2003_desc:
-      "आरोग्य क्षेत्रात कार्यास सुरुवात केली. डिसेंबर २००३ मध्ये ACTREC, टाटा मेमोरियल सेंटर येथे लॅब टेक्निशियन म्हणून रुजू झाले.",
-    kj_2006_title: "SEO नियुक्ती व NCP नेतृत्व",
-    kj_2006_desc:
-      "२००४–२०१४ दरम्यान NCP मध्ये सक्रिय — शहर सरचिटणीस व युवक शहर अध्यक्ष पदे भूषविली. २००६ मध्ये महाराष्ट्र शासनाकडून विशेष कार्यकारी अधिकारी (SEO) म्हणून नियुक्ती.",
-    kj_2012_title: "युवाप्रेरणा सामाजिक संस्थेची स्थापना",
+      "२००२ मध्ये मुंबईत आल्यानंतर नोकरीच्या शोधात मेहता पॅथॉलॉजी लॅब, ग्रँट रोड येथे पहिली नोकरी सुरू केली. तिथे काम करत असताना इस्कॉनच्या भक्तीवेदांत हॉस्पिटल, मिरा रोड येथे लॅब टेक्निशियन म्हणून चांगली संधी मिळाली.",
+    kj_2004_title: "राष्ट्रवादी काँग्रेसमध्ये प्रवेश",
+    kj_2004_desc:
+      "जून २००४ पासून राष्ट्रवादी काँग्रेस पक्षात (NCP) सक्रिय सदस्य म्हणून कामाला सुरुवात केली आणि सार्वजनिक सेवेच्या दिशेने पहिले औपचारिक पाऊल उचलले.",
+    kj_2005_title: "NCP युवक शहर सरचिटणीस",
+    kj_2005_desc:
+      "मे २००५ पासून राष्ट्रवादी युवक काँग्रेस, खारघर शहर सरचिटणीस म्हणून जबाबदारी स्वीकारली — युवाकेंद्रित उपक्रम व सामुदायिक कार्यक्रमांचे नेतृत्व केले.",
+    kj_2009_title: "NCP युवक शहर अध्यक्ष",
+    kj_2009_desc:
+      "२००९ पासून राष्ट्रवादी युवक काँग्रेस, खारघर शहर अध्यक्ष म्हणून कार्य केले — युवांना एकत्र आणत जमिनीवरील विकास कार्यांचे नेतृत्व केले.",
+    kj_2012_title: "युवाप्रेरणा व स्पोर्ट्स अकादमीची स्थापना",
     kj_2012_desc:
-      "२०१२ मध्ये युवाप्रेरणा सामाजिक संस्था स्थापन केली, जी युवा विकास व सामाजिक कल्याणावर केंद्रित आहे.",
-    kj_2014_title: "भाजपमध्ये प्रवेश व निरंतर सेवा",
+      "२०१२ मध्ये युवाप्रेरणा सामाजिक संस्थेची स्थापना केली — युवांना एकत्र आणून सामाजिक बांधिलकी जपण्यासाठी. याच वर्षी खारघर स्पोर्ट्स अकादमी स्थापन केली. युवाप्रेरणाच्या माध्यमातून वर्षातून २–३ वेळा टाटा कॅन्सर हॉस्पिटलमधील रुग्णांसाठी रक्तदान शिबिरे आयोजित केली जातात.",
+    kj_2014_title: "भाजपमध्ये प्रवेश व खारघर कॉलनी फोरम",
     kj_2014_desc:
-      "२०१४ मध्ये भारतीय जनता पक्षात प्रवेश केला. भाजप खारघरमध्ये मंडल सरचिटणीस, वैद्यकीय प्रकल्प संयोजक व उपाध्यक्ष म्हणून कार्य केले. खारघरमध्ये एक दशकाची समर्पित जमिनीवरील सेवा.",
-    kj_2024_title: "निरंतर कार्य (२०२४ – सध्या)",
-    kj_2024_desc:
-      "खारघरच्या जनतेची अविरत सेवा सुरू आहे: टाटा मेमोरियल सेंटरच्या कॅन्सर रुग्णांसाठी रक्तदान शिबिर, युवा विकासासाठी खारघर स्पोर्ट्स अकादमीचे संचालन, आणि आरोग्य, शिक्षण व सामुदायिक कल्याणात निरंतर सामाजिक सेवा.",
+      "२०१४ मध्ये खारघर कॉलनी फोरमची स्थापना केली. या माध्यमातून सौ. नेत्रा किरण पाटील ग्रामपंचायत निवडणुकीत सहभागी झाल्या. ऑक्टोबर २०१४ मध्ये भारतीय जनता पक्षात प्रवेश केला व सक्रिय सदस्य म्हणून कार्यरत राहिले.",
+    kj_2015_title: "भाजप मंडल सरचिटणीस (२०१५–२०१८)",
+    kj_2015_desc:
+      "२०१५ ते २०१८ दरम्यान भाजप खारघर मंडल सरचिटणीस म्हणून जबाबदारी सांभाळली — पक्ष संघटन व जमिनीवरील सामुदायिक संपर्क मजबूत केला.",
+    kj_2018_title: "भाजप वैद्यकीय प्रकल्प संयोजक (२०१८–२०२१)",
+    kj_2018_desc:
+      "२०१८ ते २०२१ दरम्यान भाजप खारघर मंडल वैद्यकीय प्रकल्प संयोजक म्हणून कार्य केले — आरोग्य शिबिरे, रक्तदान मोहिमा व वैद्यकीय सहाय्य उपक्रमांचे आयोजन केले.",
+    kj_2021_title: "भाजप मंडल उपाध्यक्ष (२०२१–२०२४)",
+    kj_2021_desc:
+      "२०२१ ते २०२४ दरम्यान भाजप खारघर मंडल उपाध्यक्ष म्हणून कार्यरत राहिले — व्यापक संघटनात्मक जबाबदाऱ्या सांभाळत खारघरच्या जनतेची सेवा सुरू ठेवली.",
+    kj_2025_title: "भाजपचा राजीनामा (डिसेंबर २०२५)",
+    kj_2025_desc:
+      "डिसेंबर २०२५ मध्ये भारतीय जनता पक्षाच्या सदस्यत्वाचा राजीनामा दिला — एका महत्त्वाच्या अध्यायाचा समारोप आणि स्वतंत्र सार्वजनिक सेवेच्या नव्या टप्प्याची सुरुवात.",
 
     // Netra Journey
     nj_2010_title: "युवा शिक्षण मोहीम",

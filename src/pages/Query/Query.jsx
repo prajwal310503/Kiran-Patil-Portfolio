@@ -39,16 +39,16 @@ const Query = () => {
     <div className="bg-white dark:bg-black text-black dark:text-white min-h-screen">
 
       {/* Hero Banner */}
-      <div className="bg-[#ff4d00] py-14 px-6 text-white text-center">
-        <h1 className="text-4xl sm:text-5xl font-extrabold mb-3">{t("query_title")}</h1>
-        <p className="text-lg sm:text-xl max-w-2xl mx-auto opacity-90">{t("query_subtitle")}</p>
+      <div className="bg-[#ff4d00] py-10 sm:py-14 px-4 sm:px-6 text-white text-center">
+        <h1 className="text-2xl sm:text-4xl md:text-5xl font-extrabold mb-3">{t("query_title")}</h1>
+        <p className="text-base sm:text-lg md:text-xl max-w-2xl mx-auto opacity-90">{t("query_subtitle")}</p>
       </div>
 
-      <div className="max-w-7xl mx-auto px-6 py-14 grid grid-cols-1 lg:grid-cols-2 gap-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-10 sm:py-14 grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12">
 
         {/* LEFT — Contact Details */}
         <div className="space-y-8">
-          <h2 className="text-3xl font-bold text-[#ff4d00]">{t("query_contact_title")}</h2>
+          <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-[#ff4d00]">{t("query_contact_title")}</h2>
 
           {/* Address */}
           <div className="flex gap-4 items-start">
@@ -134,7 +134,7 @@ const Query = () => {
               title="Office Location"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.5!2d73.07!3d19.04!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c3e3a0000001%3A0x0!2sIsha+CHS+Sector+19+Kharghar!5e0!3m2!1sen!2sin!4v1"
               width="100%"
-              height="240"
+              height="280"
               style={{ border: 0 }}
               allowFullScreen=""
               loading="lazy"
@@ -145,7 +145,7 @@ const Query = () => {
 
         {/* RIGHT — Contact Form */}
         <div>
-          <h2 className="text-3xl font-bold text-[#ff4d00] mb-8">{t("query_form_title")}</h2>
+          <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-[#ff4d00] mb-8">{t("query_form_title")}</h2>
 
           {submitted ? (
             <div className="flex flex-col items-center justify-center py-20 text-center gap-4">

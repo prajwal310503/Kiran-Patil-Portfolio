@@ -55,8 +55,8 @@ const Footer = () => {
 
         {/* Quick Links */}
         <div>
-          <h4 className="text-2xl font-semibold mb-2">{t("footer_quick_links")}</h4>
-          <ul className="text-lg space-y-1">
+          <h4 className="text-lg sm:text-2xl font-semibold mb-2">{t("footer_quick_links")}</h4>
+          <ul className="text-base sm:text-lg space-y-1">
             <li><Link to="/" onClick={handleHomeClick} className="hover:underline">{t("nav_home")}</Link></li>
             <li><Link to="/about" className="hover:underline">{t("nav_about")}</Link></li>
             <li><Link to="/gallery" className="hover:underline">{t("nav_gallery")}</Link></li>
@@ -67,8 +67,8 @@ const Footer = () => {
 
         {/* Explore Bio */}
         <div>
-          <h4 className="text-2xl font-semibold mb-2">{t("footer_explore_bio")}</h4>
-          <ul className="text-lg space-y-1">
+          <h4 className="text-lg sm:text-2xl font-semibold mb-2">{t("footer_explore_bio")}</h4>
+          <ul className="text-base sm:text-lg space-y-1">
             <li>
               <Link to="/about-kiran" className="hover:underline">
                 {t("footer_meet_kiran")}
@@ -84,12 +84,12 @@ const Footer = () => {
 
         {/* Address */}
         <div>
-          <h4 className="text-2xl font-semibold mb-2">{t("footer_address")}</h4>
+          <h4 className="text-lg sm:text-2xl font-semibold mb-2">{t("footer_address")}</h4>
           <a
             href="https://www.google.com/maps/place/ISHA+CHS+Sector+19+Kharghar"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-lg leading-6 hover:underline block"
+            className="text-base sm:text-lg leading-6 hover:underline block"
           >
             Isha CHS, Plot No. 76/77, Shop No. 12 <br />
             Sector 19, Kharghar, Navi Mumbai <br />
