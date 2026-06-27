@@ -77,7 +77,13 @@ const AboutKiran = () => {
             >
               {SLIDES.map((slide, i) => (
                 <div key={i} className="flex-shrink-0 h-full" style={{ width: `${100 / SLIDES.length}%` }}>
-                  <img src={slide.src} alt={slide.alt} className="w-full h-full object-cover object-center" />
+                  <img
+                    src={slide.src}
+                    alt={slide.alt}
+                    className="w-full h-full object-cover object-center"
+                    loading={i === 0 ? "eager" : "lazy"}
+                    decoding="async"
+                  />
                 </div>
               ))}
             </div>
@@ -93,7 +99,7 @@ const AboutKiran = () => {
               className={`rounded-lg overflow-hidden border-2 transition ${i === index ? "border-[#ff4d00] opacity-100" : "border-transparent opacity-60 hover:opacity-90"
                 }`}
             >
-              <img src={slide.src} alt={slide.alt} className="w-20 h-14 sm:w-28 sm:h-20 object-cover" />
+              <img src={slide.src} alt={slide.alt} className="w-20 h-14 sm:w-28 sm:h-20 object-cover" loading="lazy" decoding="async" />
             </button>
           ))}
         </div>

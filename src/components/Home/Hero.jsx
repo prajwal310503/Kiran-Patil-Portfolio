@@ -126,11 +126,14 @@ const Hero = ({ interval = 3000 }) => {
             <div key={i} className="flex-shrink-0 h-full relative" style={{ width: `${100 / slides.length}%` }}>
               <img
                 src={slide.src}
-                alt={`slide-${i + 1}`}
+                alt="Kiran Prakash Patil — Corporator, Panvel Municipal Corporation"
                 className={`w-full h-full ${slide.fit}`}
                 draggable={false}
+                loading={i === 0 ? "eager" : "lazy"}
+                fetchpriority={i === 0 ? "high" : "auto"}
+                decoding="async"
               />
-              <div className="absolute inset-0 bg-black/10 pointer-events-none" />
+              <div className="absolute inset-0 bg-black/10 pointer-events-none" aria-hidden="true" />
             </div>
           ))}
         </div>

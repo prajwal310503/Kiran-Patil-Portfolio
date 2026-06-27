@@ -104,8 +104,10 @@ const KiranJourney = () => {
         >
           <img
             src={journeyImages[year]}
-            alt={`Journey ${year}`}
+            alt={`Kiran Prakash Patil — ${year}`}
             className="w-full md:w-1/2 rounded-xl shadow-lg object-cover"
+            loading="lazy"
+            decoding="async"
           />
           <div className="text-left max-w-md">
             <h3 className="text-2xl sm:text-3xl font-bold mb-3 text-black dark:text-white">

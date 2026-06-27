@@ -37,6 +37,8 @@ const AboutLeaders = () => {
                 ? "object-[40%_top]"
                 : "object-center"
                 }`}
+              loading="lazy"
+              decoding="async"
             />
           </div>
 
