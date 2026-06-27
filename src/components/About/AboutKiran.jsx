@@ -19,7 +19,7 @@ const AboutKiran = () => {
   useLang();
   useSEO({
     title: "Kiran Prakash Patil — Journey & Commitment",
-    description: "Learn about Kiran Prakash Patil's life — from humble farming roots in Jalgaon to becoming a dedicated Corporator at Panvel Municipal Corporation serving the people since 2008.",
+    description: "Learn about Kiran Prakash Patil's life — from humble farming roots in Jalgaon to becoming a dedicated Corporator at Panvel Municipal Corporation serving the people since 2004.",
     path: "/about-kiran",
     image: "https://kiranprakashpatil.com/kiran3.jpeg",
   });

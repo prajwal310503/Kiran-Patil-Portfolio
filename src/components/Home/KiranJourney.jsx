@@ -5,8 +5,8 @@ import { t } from "../../i18n/translations";
 import { useLang } from "../../contexts/LangContext";
 
 const journeyImages = {
-  2006: imgDefault,
-  2008: imgDefault,
+  2002: imgDefault,
+  2004: imgDefault,
   2005: imgDefault,
   2009: imgDefault,
   2012: imgDefault,
@@ -17,7 +17,7 @@ const journeyImages = {
   2025: imgDefault,
 };
 
-const years = [2025, 2021, 2018, 2015, 2014, 2012, 2009, 2008, 2006, 2005];
+const years = [2025, 2021, 2018, 2015, 2014, 2012, 2009, 2005, 2004, 2002];
 
 const KiranJourney = () => {
   const [year, setYear] = useState(2025);
