@@ -4,7 +4,7 @@ const BASE_URL = "https://kiranprakashpatil.com";
 const DEFAULT_IMAGE = `${BASE_URL}/kiran1.jpeg`;
 const DEFAULT_TITLE = "Kiran Prakash Patil | Corporator, Panvel | Official Website";
 const DEFAULT_DESC =
-  "Official website of Kiran Prakash Patil, Corporator at Panvel Municipal Corporation. Championing education, healthcare, sports & community welfare in Panvel, Maharashtra since 2004.";
+  "Official website of Kiran Prakash Patil, Corporator at Panvel Municipal Corporation. Championing education, healthcare, sports & community welfare in Panvel, Maharashtra since 2008.";
 
 const setMeta = (selector, attr, value) => {
   let el = document.querySelector(selector);

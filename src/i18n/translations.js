@@ -55,7 +55,7 @@ const translations = {
     kiran_s2_b2_l: "Healthcare Insight:", kiran_s2_b2_t: "Earning a Diploma in Medical Laboratory Technology (DMLT) allowed me to see the vital importance of healthcare and community well-being from a technical perspective.",
     kiran_s2_b3_l: "Communication & Leadership:", kiran_s2_b3_t: "To better connect with the people, I completed a Post Graduate Diploma in Public Relation Management, honing the empathy and communication skills required to lead with transparency.",
     kiran_s3_h: "Two Decades of Public Service",
-    kiran_s3_p1: "I arrived in Mumbai in 2002, and by 2004, I took my first formal steps into the political arena. My mission has remained unchanged: to be a bridge between the people and the solutions they need.",
+    kiran_s3_p1: "I arrived in Mumbai in 2006, and by 2008, I took my first formal steps into the political arena. My mission has remained unchanged: to be a bridge between the people and the solutions they need.",
     kiran_s4_h: "Standing with the People",
     kiran_s4_b1_l: "Medical Guidance:", kiran_s4_b1_t: "Health crises can be overwhelming. I make it my priority to guide citizens through complex medical treatments and procedures, ensuring they never feel alone in their time of need.",
     kiran_s4_b2_l: "Administrative Synergy:", kiran_s4_b2_t: "I maintain strong, professional working relationships with the Police, CIDCO, Municipal Corporations, and the Tahsildar Office. These connections are not for personal gain, but to ensure that your concerns are addressed with speed and justice.",
@@ -93,12 +93,12 @@ const translations = {
     journey_year_label: "Year",
 
     // Kiran Journey entries
-    kj_2002_title: "Arrived in Mumbai",
-    kj_2002_desc:
-      "After arriving in Mumbai in 2002 in search of work, started the first job at Mehta Pathology Lab, Grand Road. While working there, continued seeking better opportunities and secured a position as Lab Technician at ISKCON's Bhaktivedanta Hospital, Mira Road.",
-    kj_2004_title: "Joined Nationalist Congress Party",
-    kj_2004_desc:
-      "From June 2004, began working as an active member of the Nationalist Congress Party (NCP), taking the first formal steps into political and public service.",
+    kj_2006_title: "Arrived in Mumbai",
+    kj_2006_desc:
+      "After arriving in Mumbai in 2006 in search of work, started the first job at Mehta Pathology Lab, Grand Road. While working there, continued seeking better opportunities and secured a position as Lab Technician at ISKCON's Bhaktivedanta Hospital, Mira Road.",
+    kj_2008_title: "Joined Nationalist Congress Party",
+    kj_2008_desc:
+      "From June 2008, began working as an active member of the Nationalist Congress Party (NCP), taking the first formal steps into political and public service.",
     kj_2005_title: "NCP Youth General Secretary",
     kj_2005_desc:
       "From May 2005, took on the responsibility of General Secretary of the Nationalist Youth Congress, Kharghar City — leading youth-focused initiatives and community programmes.",
@@ -269,7 +269,7 @@ const translations = {
     kiran_s2_b2_l: "स्वास्थ्य देखभाल अंतर्दृष्टि:", kiran_s2_b2_t: "मेडिकल लेबोरेटरी टेक्नोलॉजी (DMLT) में डिप्लोमा प्राप्त करने से मुझे तकनीकी दृष्टिकोण से स्वास्थ्य और सामुदायिक कल्याण के महत्व को समझने में मदद मिली।",
     kiran_s2_b3_l: "संचार और नेतृत्व:", kiran_s2_b3_t: "लोगों से बेहतर जुड़ने के लिए, मैंने जनसंपर्क प्रबंधन में पोस्ट ग्रेजुएट डिप्लोमा पूरा किया, ताकि पारदर्शिता के साथ नेतृत्व करने के लिए आवश्यक सहानुभूति और संचार कौशल विकसित कर सकूं।",
     kiran_s3_h: "सार्वजनिक सेवा के दो दशक",
-    kiran_s3_p1: "मैं 2002 में मुंबई आया और 2004 में मैंने राजनीतिक क्षेत्र में अपना पहला औपचारिक कदम रखा। मेरा मिशन तब से अपरिवर्तित है: जनता और उनकी समस्याओं के समाधान के बीच एक सेतु बनना।",
+    kiran_s3_p1: "मैं 2006 में मुंबई आया और 2008 में मैंने राजनीतिक क्षेत्र में अपना पहला औपचारिक कदम रखा। मेरा मिशन तब से अपरिवर्तित है: जनता और उनकी समस्याओं के समाधान के बीच एक सेतु बनना।",
     kiran_s4_h: "जनता के साथ खड़ा होना",
     kiran_s4_b1_l: "चिकित्सा मार्गदर्शन:", kiran_s4_b1_t: "स्वास्थ्य संकट भारी पड़ सकते हैं। मैं नागरिकों को जटिल चिकित्सा उपचारों और प्रक्रियाओं के माध्यम से मार्गदर्शन देना अपनी प्राथमिकता बनाता हूं।",
     kiran_s4_b2_l: "प्रशासनिक समन्वय:", kiran_s4_b2_t: "मैं पुलिस, सिडको (CIDCO), नगर निगम और तहसीलदार कार्यालय के साथ मजबूत और पेशेवर संबंध बनाए रखता हूँ। ये संबंध व्यक्तिगत लाभ के लिए नहीं, बल्कि यह सुनिश्चित करने के लिए हैं कि आपकी चिंताओं का समाधान शीघ्रता और न्याय के साथ किया जाए।",
@@ -307,12 +307,12 @@ const translations = {
     journey_year_label: "वर्ष",
 
     // Kiran Journey
-    kj_2002_title: "मुंबई आगमन",
-    kj_2002_desc:
-      "2002 में मुंबई आने के बाद नौकरी की तलाश में मेहता पैथोलॉजी लैब, ग्रांट रोड में पहली नौकरी शुरू की। वहाँ काम करते हुए बेहतर अवसरों की तलाश जारी रही और इस्कॉन के भक्तिवेदांत हॉस्पिटल, मीरा रोड में लैब टेक्नीशियन की नौकरी मिली।",
-    kj_2004_title: "राष्ट्रवादी कांग्रेस पार्टी में प्रवेश",
-    kj_2004_desc:
-      "जून 2004 से राष्ट्रवादी कांग्रेस पार्टी (NCP) में सक्रिय सदस्य के रूप में कार्य शुरू किया और सार्वजनिक सेवा की दिशा में पहला औपचारिक कदम उठाया।",
+    kj_2006_title: "मुंबई आगमन",
+    kj_2006_desc:
+      "2006 में मुंबई आने के बाद नौकरी की तलाश में मेहता पैथोलॉजी लैब, ग्रांट रोड में पहली नौकरी शुरू की। वहाँ काम करते हुए बेहतर अवसरों की तलाश जारी रही और इस्कॉन के भक्तिवेदांत हॉस्पिटल, मीरा रोड में लैब टेक्नीशियन की नौकरी मिली।",
+    kj_2008_title: "राष्ट्रवादी कांग्रेस पार्टी में प्रवेश",
+    kj_2008_desc:
+      "जून 2008 से राष्ट्रवादी कांग्रेस पार्टी (NCP) में सक्रिय सदस्य के रूप में कार्य शुरू किया और सार्वजनिक सेवा की दिशा में पहला औपचारिक कदम उठाया।",
     kj_2005_title: "NCP युवक महासचिव",
     kj_2005_desc:
       "मई 2005 से राष्ट्रवादी युवक कांग्रेस, खारघर शहर के महासचिव (सरचिटणीस) के रूप में जिम्मेदारी संभाली — युवा केंद्रित पहलों और सामुदायिक कार्यक्रमों का नेतृत्व किया।",
@@ -483,7 +483,7 @@ const translations = {
     kiran_s2_b2_l: "आरोग्य सेवा दृष्टीकोन:", kiran_s2_b2_t: "मेडिकल लॅबोरेटरी टेक्नॉलॉजी (DMLT) मधील पदविकेमुळे मला आरोग्य आणि लोककल्याणाचे महत्त्व तांत्रिक दृष्टिकोनातून समजले.",
     kiran_s2_b3_l: "संवाद आणि नेतृत्व:", kiran_s2_b3_t: "लोकांशी अधिक चांगल्या प्रकारे जोडले जाण्यासाठी, मी जनसंपर्क व्यवस्थापनात (PR Management) पदव्युत्तर पदविका पूर्ण केली, ज्यामुळे पारदर्शक नेतृत्व करण्यासाठी आवश्यक कौशल्ये मला आत्मसात करता आली.",
     kiran_s3_h: "सार्वजनिक सेवेची दोन दशके",
-    kiran_s3_p1: "मी २००२ मध्ये मुंबईत आलो आणि २००४ मध्ये राजकीय क्षेत्रात पहिले पाऊल टाकले. जनता आणि त्यांच्या समस्यांवरील उपाय यांच्यातील एक 'सेतू' बनणे, हे माझे उद्दिष्ट तेव्हापासून कायम आहे.",
+    kiran_s3_p1: "मी २००६ मध्ये मुंबईत आलो आणि २००८ मध्ये राजकीय क्षेत्रात पहिले पाऊल टाकले. जनता आणि त्यांच्या समस्यांवरील उपाय यांच्यातील एक 'सेतू' बनणे, हे माझे उद्दिष्ट तेव्हापासून कायम आहे.",
     kiran_s4_h: "जनतेच्या पाठीशी खंबीरपणे",
     kiran_s4_b1_l: "वैद्यकीय मार्गदर्शन:", kiran_s4_b1_t: "आरोग्याचे संकट कठीण असते. अशा वेळी नागरिकांना क्लिष्ट वैद्यकीय उपचार आणि प्रक्रियेत मार्गदर्शन करणे ही माझी प्राथमिकता असते, जेणेकरून त्यांना एकाकी वाटू नये.",
     kiran_s4_b2_l: "प्रशासकीय समन्वय:", kiran_s4_b2_t: "पोलीस, सिडको (CIDCO), महानगरपालिका आणि तहसीलदार कार्यालयाशी मी सलोख्याचे व व्यावसायिक संबंध जपतो. हे संबंध वैयक्तिक फायद्यासाठी नसून, तुमच्या समस्यांचे निराकरण वेगाने आणि न्यायाने व्हावे यासाठी आहेत.",
@@ -521,12 +521,12 @@ const translations = {
     journey_year_label: "वर्ष",
 
     // Kiran Journey
-    kj_2002_title: "मुंबईत आगमन",
-    kj_2002_desc:
-      "२००२ मध्ये मुंबईत आल्यानंतर नोकरीच्या शोधात मेहता पॅथॉलॉजी लॅब, ग्रँट रोड येथे पहिली नोकरी सुरू केली. तिथे काम करत असताना इस्कॉनच्या भक्तीवेदांत हॉस्पिटल, मिरा रोड येथे लॅब टेक्निशियन म्हणून चांगली संधी मिळाली.",
-    kj_2004_title: "राष्ट्रवादी काँग्रेसमध्ये प्रवेश",
-    kj_2004_desc:
-      "जून २००४ पासून राष्ट्रवादी काँग्रेस पक्षात (NCP) सक्रिय सदस्य म्हणून कामाला सुरुवात केली आणि सार्वजनिक सेवेच्या दिशेने पहिले औपचारिक पाऊल उचलले.",
+    kj_2006_title: "मुंबईत आगमन",
+    kj_2006_desc:
+      "२००६ मध्ये मुंबईत आल्यानंतर नोकरीच्या शोधात मेहता पॅथॉलॉजी लॅब, ग्रँट रोड येथे पहिली नोकरी सुरू केली. तिथे काम करत असताना इस्कॉनच्या भक्तीवेदांत हॉस्पिटल, मिरा रोड येथे लॅब टेक्निशियन म्हणून चांगली संधी मिळाली.",
+    kj_2008_title: "राष्ट्रवादी काँग्रेसमध्ये प्रवेश",
+    kj_2008_desc:
+      "जून २००८ पासून राष्ट्रवादी काँग्रेस पक्षात (NCP) सक्रिय सदस्य म्हणून कामाला सुरुवात केली आणि सार्वजनिक सेवेच्या दिशेने पहिले औपचारिक पाऊल उचलले.",
     kj_2005_title: "NCP युवक शहर सरचिटणीस",
     kj_2005_desc:
       "मे २००५ पासून राष्ट्रवादी युवक काँग्रेस, खारघर शहर सरचिटणीस म्हणून जबाबदारी स्वीकारली — युवाकेंद्रित उपक्रम व सामुदायिक कार्यक्रमांचे नेतृत्व केले.",
