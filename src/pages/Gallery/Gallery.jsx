@@ -1,8 +1,15 @@
 import React, { useState } from "react";
 import ChooseCategory from "../../components/Gallery/ChooseCategory";
 import CategoryDetail from "../../components/Gallery/CategoryDetail";
+import { useSEO } from "../../utils/useSEO";
 
 const Gallery = () => {
+  useSEO({
+    title: "Gallery — Moments of Service",
+    description: "Explore the gallery of Kiran Prakash Patil — photos and moments from public events, community programmes, cultural initiatives, and grassroots work across Panvel and Navi Mumbai.",
+    path: "/gallery",
+  });
+
   const [selectedCategory, setSelectedCategory] = useState(null);
 
   return (

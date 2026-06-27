@@ -1,7 +1,14 @@
 import React, { useState } from "react";
 import AllEvents from "../../components/Blogs/AllEvents"; // Adjust path if needed
+import { useSEO } from "../../utils/useSEO";
 
 const Blogs = () => {
+  useSEO({
+    title: "Events & Initiatives",
+    description: "Stay updated on events, public programmes, and community initiatives by Kiran Prakash Patil — Corporator at Panvel Municipal Corporation. Catch up on ongoing work across Panvel and Navi Mumbai.",
+    path: "/blogs",
+  });
+
   const [selectedEvent, setSelectedEvent] = useState(null);
 
   return (

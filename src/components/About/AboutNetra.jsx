@@ -8,6 +8,7 @@ import netra1 from "../../assets/netra1.jpeg";
 import kiran3 from "../../assets/kiran3.jpeg";
 import { t } from "../../i18n/translations";
 import { useLang } from "../../contexts/LangContext";
+import { useSEO } from "../../utils/useSEO";
 
 const SLIDES = [
   { src: netra1, alt: "Smt. Netra Kiran Patil" },
@@ -16,6 +17,12 @@ const SLIDES = [
 
 const AboutNetra = () => {
   useLang();
+  useSEO({
+    title: "Smt. Netra Kiran Patil — BJP Corporator, Panvel",
+    description: "Meet Smt. Netra Kiran Patil, Corporator at Panvel Municipal Corporation. Secretary of Kharghar Sports Academy, Vice President of Yuvaprerna Samajik Sanstha, championing youth, sports & social empowerment.",
+    path: "/about-netra",
+    image: "https://kiranprakashpatil.com/netra1.jpeg",
+  });
   const [index, setIndex] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
   const timeoutRef = useRef(null);

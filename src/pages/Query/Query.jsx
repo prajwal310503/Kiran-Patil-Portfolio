@@ -2,9 +2,15 @@ import { useState } from "react";
 import { FaLocationDot, FaPhone, FaEnvelope, FaInstagram, FaFacebookF, FaXTwitter } from "react-icons/fa6";
 import { t } from "../../i18n/translations";
 import { useLang } from "../../contexts/LangContext";
+import { useSEO } from "../../utils/useSEO";
 
 const Query = () => {
   useLang();
+  useSEO({
+    title: "Contact — Send a Query",
+    description: "Get in touch with Kiran Prakash Patil, Corporator at Panvel Municipal Corporation. Reach the office at Isha CHS, Sector 19, Kharghar, Navi Mumbai or send your query online.",
+    path: "/query",
+  });
   const [form, setForm] = useState({ name: "", email: "", phone: "", subject: "", message: "" });
   const [submitted, setSubmitted] = useState(false);
   const [errors, setErrors] = useState({});

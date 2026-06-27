@@ -4,8 +4,15 @@ import Impact from '../../components/Impact/Impact';
 import KiranJourney from '../../components/Home/KiranJourney';
 import PeopleVoice from '../../components/Home/PeopleVoice'; // ✅ New import
 import Events from '../../components/Home/Events';
+import { useSEO } from '../../utils/useSEO';
 
 const Home = () => {
+  useSEO({
+    title: "Home",
+    description: "Official website of Kiran Prakash Patil, Corporator at Panvel Municipal Corporation. A voice for the people, championing education, healthcare, sports & community welfare in Panvel since 2004.",
+    path: "/",
+  });
+
   return (
     <section className="bg-gray-100 dark:bg-darkBg dark:text-white min-h-screen transition">
       <Hero />

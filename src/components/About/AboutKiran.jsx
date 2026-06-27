@@ -8,6 +8,7 @@ import kiran3 from "../../assets/kiran3.jpeg";
 import kiran5 from "../../assets/kiran5.jpeg";
 import { t } from "../../i18n/translations";
 import { useLang } from "../../contexts/LangContext";
+import { useSEO } from "../../utils/useSEO";
 
 const SLIDES = [
   { src: kiran3, alt: "Kiran Prakash Patil" },
@@ -16,6 +17,12 @@ const SLIDES = [
 
 const AboutKiran = () => {
   useLang();
+  useSEO({
+    title: "Kiran Prakash Patil — Journey & Commitment",
+    description: "Learn about Kiran Prakash Patil's life — from humble farming roots in Jalgaon to becoming a dedicated Corporator at Panvel Municipal Corporation serving the people since 2004.",
+    path: "/about-kiran",
+    image: "https://kiranprakashpatil.com/kiran3.jpeg",
+  });
   const [index, setIndex] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
   const timeoutRef = useRef(null);
