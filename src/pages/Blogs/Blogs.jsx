@@ -4,7 +4,7 @@ import { useSEO } from "../../utils/useSEO";
 
 const Blogs = () => {
   useSEO({
-    title: "Events & Initiatives",
+    title: "Events & Public Initiatives",
     description: "Stay updated on events, public programmes, and community initiatives by Kiran Prakash Patil — Corporator at Panvel Municipal Corporation. Catch up on ongoing work across Panvel and Navi Mumbai.",
     path: "/blogs",
   });

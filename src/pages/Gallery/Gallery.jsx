@@ -5,7 +5,7 @@ import { useSEO } from "../../utils/useSEO";
 
 const Gallery = () => {
   useSEO({
-    title: "Gallery — Moments of Service",
+    title: "Gallery of Groundwork — Moments of Service",
     description: "Explore the gallery of Kiran Prakash Patil — photos and moments from public events, community programmes, cultural initiatives, and grassroots work across Panvel and Navi Mumbai.",
     path: "/gallery",
   });

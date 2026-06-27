@@ -8,7 +8,6 @@ import { useSEO } from '../../utils/useSEO';
 
 const Home = () => {
   useSEO({
-    title: "Home",
     description: "Official website of Kiran Prakash Patil, Corporator at Panvel Municipal Corporation. A voice for the people, championing education, healthcare, sports & community welfare in Panvel since 2004.",
     path: "/",
   });

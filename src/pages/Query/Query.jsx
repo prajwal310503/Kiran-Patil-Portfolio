@@ -7,7 +7,7 @@ import { useSEO } from "../../utils/useSEO";
 const Query = () => {
   useLang();
   useSEO({
-    title: "Contact — Send a Query",
+    title: "Contact Kiran Prakash Patil — Send a Query",
     description: "Get in touch with Kiran Prakash Patil, Corporator at Panvel Municipal Corporation. Reach the office at Isha CHS, Sector 19, Kharghar, Navi Mumbai or send your query online.",
     path: "/query",
   });

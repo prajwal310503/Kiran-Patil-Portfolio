@@ -4,7 +4,7 @@ import { useSEO } from '../../utils/useSEO';
 
 const About = () => {
   useSEO({
-    title: "About Our Leaders",
+    title: "Meet Kiran & Netra Patil — Panvel Corporators",
     description: "Meet Kiran Prakash Patil and Smt. Netra Kiran Patil — Corporators at Panvel Municipal Corporation, dedicated to serving the people of Panvel, Kharghar, and Navi Mumbai.",
     path: "/about",
   });
