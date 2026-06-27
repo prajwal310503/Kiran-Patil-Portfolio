@@ -15,7 +15,7 @@ const leaders = [
   {
     name: "Shri Kiran Prakash Patil",
     title: "Visionary Leader",
-    description: "Serving the people with integrity and vision since 2008.",
+    description: "Serving the people with integrity and vision since 2006.",
     image: kiranImage,
     buttonText: "Know His Journey",
     route: "/about-kiran",
