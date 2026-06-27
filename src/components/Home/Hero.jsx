@@ -132,6 +132,8 @@ const Hero = ({ interval = 3000 }) => {
                 loading={i === 0 ? "eager" : "lazy"}
                 fetchpriority={i === 0 ? "high" : "auto"}
                 decoding="async"
+                width="1920"
+                height="1080"
               />
               <div className="absolute inset-0 bg-black/10 pointer-events-none" aria-hidden="true" />
             </div>
